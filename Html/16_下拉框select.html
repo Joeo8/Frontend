@@ -1,0 +1,51 @@
+<!-- 
+		下拉框 
+				select  下拉框标签
+				option  下拉框的选项标签
+				
+			常用属性：
+					multiple    设置下拉框可多选
+					size    		  设置下拉框可见选项数
+					disabled    禁用下拉框
+					value          提交给服务器的选项值
+									（如果设置了value值，则提交的是value的值；
+										如果未设置value值，则提交的是双标签中的文本值）
+										
+ -->
+
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>下拉框</title>
+	</head>
+	<body>
+		<select name="城市"  disabled="disabled">
+			<option value="">苏州</option>
+			<option value="">上海</option>
+			<option value="">广州</option>
+			<option value="">深圳</option>
+		</select>
+		<hr >
+		<select name="城市" multiple="multiple" size="2">
+			<option value="">苏州</option>
+			<option value="">上海</option>
+			<option value="">广州</option>
+			<option value="">深圳</option>
+			<option value="">苏州</option>
+			<option value="">上海</option>
+			<option value="">广州</option>
+			<option value="">深圳</option>
+		</select>
+		<hr >
+		
+		<select name="城市"  >
+			<option value ="">请选择您的城市</option>
+			<option value="">苏州</option>
+			<option  value="">上海</option>
+			<option value="">广州</option>
+			<option value="">深圳</option>
+		</select>
+	</body>
+</html>

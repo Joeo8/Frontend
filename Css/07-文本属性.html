@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>文本属性</title>
+		<style type="text/css">
+				/* 文本属性 */
+			#div1{
+				/* color 字体颜色 */
+				color: #DC143C;
+			}
+			#div2{
+				/* 文本对齐方式 */   
+				text-align: center;  			/* 默认左对齐*/
+			}
+			#div3{
+				/* 文本修饰 text-decoration */
+				text-decoration-line: overline;
+			}
+			#div4{
+				 /* 文本修饰，同时设置上中下三条线 */
+				 text-decoration: overline line-through underline;  
+			}
+			a{
+				/* 去除a标签超链接的默认下划线 */
+				text-decoration: none;
+			}
+			#p{
+				/* 设置段落的首行缩进 */
+				text-indent: 2em;  /* em表示一个文字的宽度*/
+			}
+		</style>
+	</head>
+	<body>
+		<div id="div1">文本1</div>
+		<div id="div2">文本2</div>
+		<div id="div3">文本3</div>
+		<p id="div4">文本4</><br>
+		<hr >
+		<a href="">A标签去除文本修饰</a>
+		<br>
+		<p id="p">这是一段文字，我们需要首行缩进</p>
+	</body>
+</html>

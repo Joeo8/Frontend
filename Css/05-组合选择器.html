@@ -1,0 +1,78 @@
+<!-- 
+		组合选择器  
+				后代选择器 （以空格分隔）
+						选择指定元素的所有后代元素
+				子代选择器  （以大于号分隔）
+						选择指定元素的第一代元素
+				相邻兄弟选择器 （以加号分隔）
+						选择指定元素相邻的下一个指定元素（只会找一个）
+				普通兄弟选择器	（以波浪号分隔）
+						选择指定元素后的指定同级元素
+ -->
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>组合选择器</title>
+		<style type="text/css">
+			/* 后代选择器 （空格分隔） */
+			/* .food li {
+				border: 2px solid #8A2BE2;
+			} */
+			/* 子代选择器 （大于号分隔）*/
+			.food>li {
+				border: 2px solid #8A2BE2;
+			}
+			/* 相邻兄弟选择器（以加号分隔） */
+			#d+div{
+				color: red;
+			}
+			/* 普通兄弟选择器（波浪号分隔） */
+			#t~li{
+				color: #7FFF00;
+			}
+		</style>
+	</head>
+	<body>
+		<h2>食物</h2>
+		<ul class="food">
+			<li>蔬菜
+				<ul>
+					<li>香蕉</li>
+					<li>苹果</li>
+					<li>菠萝</li>
+				</ul>
+			</li>
+			<li>蔬菜
+				<ul>
+					<li>白菜</li>
+					<li>土豆</li>
+					<li>生菜</li>
+				</ul>
+			</li>
+		</ul>
+		<hr />
+		<div id="d">
+			相邻兄弟选择器
+			<ul>
+				<li>开心麻花</li>
+				<li>贾玲</li>
+				<li>沈腾</li>
+			</ul>
+		</div>
+		<div>相邻兄弟选择器2</div>
+		<div>相邻兄弟选择器3</div>
+		<p>相邻兄弟4</p>
+		<hr>
+		<div id="d">
+			普通兄弟选择器
+			<ul>
+				<li id="t">开心麻花</li>
+				<li>贾玲</li>
+				<li>沈腾</li>
+				<li>王宁</li>
+			</ul>
+		</div>
+	</body>
+</html>

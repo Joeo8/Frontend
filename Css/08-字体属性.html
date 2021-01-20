@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>字体属性</title>
+<!-- 
+	设置字体效果		
+			font-family
+				1.当font-family的属性包含空格或特殊字符时，需要将font-family属性值用引号括起来
+				2.font-family有“后备”机制，为元素设置多中字体样式。当浏览器不识别，自动换下一个
+				3.当font-family的属性值有多个时，用逗号隔开
+			font-size 
+					设置字体大小
+			font-style
+					设置字体风格
+							normal 正常体
+							Italic     斜体
+							oblique 斜体（强制斜体）
+			font-weight
+					设置字体粗细
+							bold 粗体
+							100~900 值越大字体越粗
+							400  正常字体
+							700  粗体
+-->
+		<style type="text/css">
+			div{
+				font-family: 楷体;
+				font-family: "agency fb";
+				font-family: 楷体,宋体,黑体;
+				font-size: 30px;
+				font-style: italic;
+				font-weight: bold;
+			}
+		</style>
+	</head>
+	<body>
+		<div>这是一段文本</div>
+	</body>
+</html>

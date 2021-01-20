@@ -1,0 +1,39 @@
+<!-- 
+		表单标签
+			form  
+				用于向服务器传输数据。form元素是块儿级元素，有自动换行功能
+				表单提交时，必须设置表单元素的name属性值，否则无法获取数据
+				表单需要结合表单元素一起使用。
+				
+				所有标签都有的属性
+					id         用来标识元素的唯一性
+					name   提交数据时的参数名
+					style     设置元素的行内样式（具体的样式）
+					class     设置元素的样式名
+				
+				常用属性
+					action  提交表单的地址
+					method 提交方式 （GET、POST）
+					targer    打开窗口的方式（_self \  _blank）
+					
+			GET &  POST 的区别  （POST请求需要服务器的支持）
+				1. GET请求时参数会跟在浏览器地址栏中的后面，而post不会（POST请求会将数据放在请求体中）
+				2. GET请求相对于POST而言，不那么安全
+				3. GET请求传递的参数长度有限，而POST请求基本没有限制（长度与服务器有关）
+				4. GET请求比POST请求快（2倍左右）
+				5.  GET请求有缓存（会将数据存放在浏览器中，即本地磁盘中。）而POST请求没有缓存
+ -->
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>表单标签</title>
+	</head>
+	<body>
+		<form action="https://www.baidu.com" method="get">
+					姓名： <input type="text"  name="uname" />
+			<input type="submit" />
+		</form>
+	</body>
+</html>

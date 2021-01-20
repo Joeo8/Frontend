@@ -1,0 +1,78 @@
+<!-- 
+		样式选择器
+		
+				通用选择器  
+							选择所有元素   *{ }
+				
+				元素选择器/标签选择器 
+							选择指定元素   标签名{ }
+				
+				id选择器 
+							选择指定id的元素    #id属性值{  }
+							id值最好保持唯一
+							id定义规则：以字母、数字、下划线、横杠组成，不能以数字开头  “123”
+				
+				类选择器
+							选择设置指定class属性的元素    .class属性值{  }
+				
+				分组选择器（组合选择器）  
+							选择指定选择器选中的元素
+									选择器1，选择器2，选择器3{   }			
+									
+				选择器的优先级：（权重值）
+							id选择器 100 >   类选择器  10 >  元素选择器 1  >  通用选择器 			
+							行内样式style属性中  权重是1000  （行内样式优先级最高）
+ -->
+
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Css样式选择器</title>
+		<style type="text/css">
+				*{
+					color: aqua;
+					font-family: 楷体;
+					font-size: 10px;
+				}
+				
+				div{
+					width: 100px;
+					height: 100px;
+					background-color: antiquewhite;
+					color: chartreuse;
+					font-family: 楷体;
+					font-size: 30px;
+				}
+				#div3{
+					width: 50px;
+					height: 150px;
+					background-color: chartreuse;
+					color: chartreuse;
+					font-family: 楷体;
+					font-size: 30px;
+				}
+				.cls1{
+					width: 200px;
+					height: 200px;
+					background-color: #8A2BE2;
+					color: chartreuse;
+					font-family: 楷体;
+					font-size: 20px;
+				}
+				#div3,.cls1,p{
+					border: 3px solid crimson;
+					font-size: large;
+					color: antiquewhite;
+				}
+		</style>
+	</head>
+	<body>
+		<div class="cls1">div1</div>
+		<div class="cls1">div2</div>
+		<div id="div3">div3</div>
+		<div>div4</div>
+		<p>这是一个p</p>
+	</body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>display</title>
+		<style type="text/css">
+			/* 
+			块级元素
+					可以设置元素的宽高和边距，元素会自当换行
+			行内元素
+					不可以设置元素的宽高和边距，元素不会自动换行
+			行内块元素
+					可以设置元素的宽高和边距，但元素不会自动换行 
+			
+			 display 属性
+					规定元素生成框的类型
+						block   			元素会被显示，且元素变成块级元素，元素前后会有换行符
+						none       			元素会被隐藏
+						inline      			元素会显示为行内元素，元素前后没有换行符
+						inline-block    行内块元素
+			 */
+			span{
+				background-color: #DC143C;
+			}
+			#span2{
+				display: block;
+				width: 100px;
+				height: 200px;
+				background-color: #8A2BE2;
+			}
+			#span1{
+				width: 100px;
+				height: 200px;
+				background-color: #00FFFF;
+			}
+			p{
+					width: 200px;
+					height: 200px;
+					background-color: brown;
+					display: inline-block;
+			}
+		</style>
+	</head>
+	<body>
+		<span id="span1">第一个Span</span>
+		<span id="span2">第二个Span</span>
+		<span id="span3">第三个Span</span>
+		<hr >
+		<span id="span4">第四个Span</span>
+		<p>这是一个P</p>
+	</body>
+</html>

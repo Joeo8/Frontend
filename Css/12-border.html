@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>盒子模型-border</title>
+		<style type="text/css">
+			/* 
+				边框border  
+						1.设置元素边框的宽度、颜色、类型
+						2.单独设置边框的颜色、宽度、类型
+								border-color
+								border-width
+								border-style
+						3.设置属性值的顺序：上右下左（顺时针）
+								设置一个属性，表示边框四边效果一致
+								设置两个属性表示上下一致，左右一致
+								设置三个属性表示上下不一致，左右一致
+						4.合并边框 （表格中）
+							border-collapse: collapse;
+								
+			 */
+			#d1 {
+				border: 1px solid #7FFF00;
+			}
+
+			#d2 {
+				border-color: #DC143C;
+				border-style: dashed;
+				border-width: 1px;
+			}
+
+			#d3 {
+				border-style: dashed double none solid;
+				border-color: #DC143C;
+				border-width: 0.125rem;
+			}
+
+			table {
+				border-collapse: collapse;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="d1">这是一个div</div><br>
+		<div id="d2">这是一个div</div><br>
+		<div id="d3">这是一个div</div><br>
+		<table border="1" cellspacing="" cellpadding="">
+			<tr>
+				<th>Header</th>
+			</tr>
+			<tr>
+				<td>Data</td>
+			</tr>
+		</table>
+	</body>
+</html>

@@ -1,0 +1,58 @@
+<!-- 
+		input 标签
+			type     元素的类型
+					text      文本框
+					password  密码框
+					radio    单选框
+					checkbox 复选框
+					file   文件域
+					hidden   隐藏域
+					button  普通按钮
+					submit   提交按钮
+					reset    重置按钮
+					date     日期框
+			value    元素的值
+			readonly  只读
+			maxlength  最大长度
+			disable   禁用标签
+			
+			注意!
+					1.单选框、复选框需要通过name属性设置为一组
+					2.如果需要上传文件的表单，则表单需要设置一个属性  formenctype=“multipart/form-data”，提交方式为POST
+					3.没有name 属性时无法提交数据的
+			
+			
+ -->
+
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>input</title>
+	</head>
+	<body>
+		<form action="" method="get">
+
+			文本框：<input type="text" name="uname"  value="zhangsan" maxlength="10" />
+			<br>
+			文本框：<input type="text" id="" value="zhangsan" readonly="readonly" />
+			<br>
+			密码：<input type="password" /><br>
+			单选框：<input type="radio" name="sex" id="" value="man" /> 男
+			<input type="radio" name="sex" id="" value="woman" /> 女
+			<br>
+
+			多选框：<input type="checkbox" value="1" name="ck">1
+			<input type="checkbox" value="2" name="ck">2
+			<input type="checkbox" value="3" name="ck">3
+			<br>
+			文件域：<input type="file" formenctype="multipart/form-data" formmethod="post" /><br>
+			隐藏域：<input type="hidden" value="admin" /><br>
+			普通按钮：<input type="button" value="普通按鈕" /><br>
+			提交按鈕：<input type="submit" value="提交按鈕"  /><br>
+			重置按鈕：<input type="reset" value="重置按鈕" /><br>
+			日期框：<input type="date" value="" />
+		</form>
+	</body>
+</html>

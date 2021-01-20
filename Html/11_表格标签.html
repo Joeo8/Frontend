@@ -1,0 +1,53 @@
+<!-- 
+		表格标签 
+			table >  tr  >  td  (th)
+				table 表示表格
+				tr      表示表格中的行（一个tr中包含多个td\th）
+				td     表示表格中的标准单元格
+				th     表示表格中的表头单元格（加粗、居中）
+				
+			table常用属性
+					border  边框  
+					width    宽度 （像素\百分比）
+					align     表格的对齐方式（left、right、center）
+					style:border-collapse-collapse  合并单元格边框
+					
+			tr常用属性
+					align   每行文本内容的水平显示
+					valign 每行文中内容的垂直显示
+					bgcolor  设置行的背景颜色
+					
+			td合并单元格 
+					rowspan 纵向合并
+					colspan  横向合并
+ -->
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>表格标签</title>
+	</head>
+	<body>
+		<table border="1" width="500px" style="border-collapse: collapse;" align="center">
+			<tr>
+				<th colspan="2">姓名</th>
+				<th>性别</th>
+			</tr>
+			<tr align="center">
+				<td>张三</td>
+				<td rowspan="2">001</td>
+				<td>男</td>
+			</tr>
+			<tr align="center">
+				<td>李四</td>
+				<td>女</td>
+			</tr>
+			<tr align="center">
+				<td>王五</td>
+				<td>003</td>
+				<td>男</td>
+			</tr>
+		</table>
+	</body>
+</html>
