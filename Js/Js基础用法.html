@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ECMAScript</title>
+</head>
+<!--
+    基本用法:
+        行内 js   将js代码写在html标签上（耦合度高，不推荐）
+        内部 js   写在<script>标签中
+        外部 js    创建js文件，通过script标签引入js文件
+
+        js放置的位置
+              1. 放在head标签中
+              2. 放在body标签中
+              3. 放在body标签后（推荐）
+              js代码从上往下依次执行，最好等到html元素执行完毕再执行js代码
+
+         onclick  鼠标点击时间
+         alert    网页中的弹出框
+         console.log()  打印内容
+-->
+<body>
+    <!--行内js-->
+<button type="button" onclick="alert('hello Jolly !')">按钮</button>
+</body>
+    <!--内部js-->
+    <script type="text/javascript">
+        // alert('hello !!!')
+    </script>
+    <!--外部js-->
+    <!--引入外部js文件 src：引入文件的路径 charset：编码格式-->
+    <!--注：如果script标签中设置了src属性，则再script标签下新写的js代码无效-->
+    <script src="one.js" type="text/javascript" charset="UTF-8"></script>
+</html>
