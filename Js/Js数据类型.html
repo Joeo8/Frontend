@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>数据类型</title>
+</head>
+<body>
+</body>
+<!--
+    数据类型：
+        数值（number）:整数和小数（1, 3，14）
+        字符串(String):字符组成的文本("Hello")
+        布尔值（Boolean）:true / false
+        Undefined:表示未定义或者不存在的，即此处目前没有任何值
+        Null：表示空缺，此处应该有值，但目前为空
+        对象（Object）（引用）：各种值组成的集合
+            1) 对象Object {name:"joeo8" ;age:18}
+            2) 数组（array） [1,2,3]
+            3) 函数（Function） function test(){}
+
+        Undefined
+            表示值不存在
+            出现Undefined的情况：
+                1. 当声明了变量但未赋值时，这个变量的值就是undefined
+                2. 调用函数(方法)时，函数有形参，但未提供形参，则参数未Undefined
+                3. 函数没有返回值，默认返回Undefined
+
+        Null表示空值
+            使用Null类型时，需要注意以下几点：
+                1. 使用typeof操作符测试null返回Object字符串
+                2. Undefined派生自null，所以等值比较返回值为true。
+                    （未初始化的变量和赋值为null的变量相等）
+
+-->
+<script type="text/javascript">
+    //1. 当声明了一个变量但未进行赋值时
+    var str ;
+    console.log(str);   //Undefined
+    //2. 调用函数时，函数有形参，未进行传参时
+    function test(str){
+        console.log(str);
+    }
+    //调用方法，为传递形参
+    test();  //Undefined
+    //3. 函数没有返回值，默认返回Undefined
+    var  t = test(1);
+    console.log(t);  //Undefined
+
+    //-----------------------------------
+    //Null
+    var a = 1 ;
+    var b = true ;
+    console.log(typeof a);  //number
+    console.log(typeof b);  //boolean
+
+    var c = null ;
+    console.log(null);      //null
+    console.log(typeof  c); //Object
+
+    var d ;
+    console.log(c == d);  //true
+</script>
+</html>
