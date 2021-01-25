@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>变量</title>
+</head>
+<body>
+
+</body>
+<!--
+    变量:
+            Js是一种弱类型语言，在声明变量时不需要指定数据类型，直接使用var修饰符声明变量
+    变量的声明:
+        1.声明并赋值
+        2.先声明，再赋值
+    注意事项：
+        1. 当变量声明而未赋值时，默认值返回undefined
+        2. 变量要先定义才能使用，不然会报错 （Js代码中出现报错，后面的代码将不会被执行）
+        3. 可以在一条语句中声明多个变量
+        4. 用var声明一个已经存在的变量，无效！
+        5. 若使用var声明并赋值一个已存在的变量，则相当于覆盖
+        6. JavaScript是一种动态的、弱类型语言，也就是说，变量的类型没有限制，可以赋予各种类型的值
+        7. JavaScript引擎的工作方式是先解析代码，获取到所有被生命的变量，然后再一行一行的运行。
+            这造成的结果就是所有变量的声明语句，都会被提升到代码的头部，这就是【变量提升】
+           [注] 只有用var声明的变量才能做变量提升
+-->
+<script type="text/javascript">
+    //声明并赋值
+    var str = "Hello Jolly";
+    console.log(str);
+    //声明再赋值
+    var str2 ;
+    str2 = "Hello Joeo8";
+    console.log(str2);
+    //声明未赋值
+    var str3;
+    console.log(str3);
+    //数据类型不限制
+    var flag = true ;
+    console.log(flag);
+    //变量提升
+    console.log(uname);
+    var uname = "Joeo8";  //Undefined
+    /*   变量提升的整个过程
+    var uname;
+    console.log(uname);
+    uname = "Joeo8";
+    */
+</script>
+</html>
