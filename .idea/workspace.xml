@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9cb1bff7-5352-4027-ac60-899ec762962a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Js/Js函数作用域.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Js/Js对象的创建.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +103,7 @@
       <workItem from="1611494900563" duration="3832000" />
       <workItem from="1611551630083" duration="6851000" />
       <workItem from="1611632504858" duration="9420000" />
-      <workItem from="1611674102744" duration="2349000" />
+      <workItem from="1611674102744" duration="2531000" />
     </task>
     <task id="LOCAL-00001" summary="ECMAJavaScript">
       <created>1611496578786</created>
@@ -216,7 +217,35 @@
       <option name="project" value="LOCAL" />
       <updated>1611676367671</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="ECMAScript">
+      <created>1611676466818</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1611676466818</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Js函数作用域">
+      <created>1611676499989</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1611676499989</updated>
+    </task>
+    <task id="LOCAL-00019" summary="ECMAScript">
+      <created>1611676540522</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1611676540523</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Js内置对象">
+      <created>1611676588238</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1611676588238</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -258,7 +287,9 @@
     <MESSAGE value="Js数组中的方法" />
     <MESSAGE value="Js函数的定义" />
     <MESSAGE value="Js函数参数及调用" />
+    <MESSAGE value="Js函数作用域" />
     <MESSAGE value="ECMAScript" />
-    <option name="LAST_COMMIT_MESSAGE" value="ECMAScript" />
+    <MESSAGE value="Js内置对象" />
+    <option name="LAST_COMMIT_MESSAGE" value="Js内置对象" />
   </component>
 </project>
