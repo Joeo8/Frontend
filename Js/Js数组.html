@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Js数组</title>
+</head>
+<body>
+</body>
+<!--
+    Js数组:
+           数组的定义：
+                1. 隐式创建  var arr = [x,y,z];
+                2. 直接实例化  var arr = new array(x,y,z)
+                3. 创建数组并指定长度  var array = new Array(size)
+            数组的特点：
+                1.长度可变
+                2.数组中数据库类型任意
+                3.索引从0开始
+                4.可以使用任意字符当作数组的索引。
+                    如果索引是非正整数，我们称之为数组的属性，属性不影响数组的长度。
+            数组的基本操作：
+                1.数组的长度可以通过length属性进行获取，长度也可以进行任意修改
+                2.获取数组中的元素通过下标进行获取，索引可以越界
+                3.数组的遍历（For、ForIn、ForEach）
+
+-->
+<script type="text/javascript">
+        //隐式创建
+        var arr = [];
+        console.log(arr);
+        var arr2 = [1,'a',true];
+        console.log(arr2);
+        //直接实例化
+        var array = new Array(1,2,3);
+        console.log(array);
+        //创建数组并指定长度
+        var array1 = new Array(3);
+        console.log(array1);
+
+        //获取数组长度
+        console.log(arr2.length);
+        arr2.length = 5 ;
+        console.log(arr2);
+
+        //获取数组中的元素
+        console.log(arr2[0]);  //1
+        console.log(arr2[10]);  //Undefined
+
+        //数组下标为非正整数的情况
+        console.log(arr2.length);
+        arr2[4] = 'joeo8';
+        console.log(arr2);
+        arr2['uname'] = 'Jolly';
+        console.log(arr2);
+        console.log(arr2.length);  //5
+
+        console.log('++++++++++++++++++++++')
+
+        //数组的遍历
+        
+        //1.普通for循环  ==> 不遍历属性
+        for (var i = 0; i <arr2.length ; i++) {
+            console.log(arr2[i]);
+        }
+        //2.For in        ==》不便利Undefined
+        for (var index in arr2) {
+            console.log(index);
+            console.log(arr2[index]);
+            console.log('-----')
+        }
+        console.log('=======')
+        //3.ForEach       ==》不遍历属性和Undefined
+        arr2.forEach(function (element,index){
+            console.log(element);
+            console.log(index);
+            console.log('--------')
+        })
+
+</script>
+</html>
