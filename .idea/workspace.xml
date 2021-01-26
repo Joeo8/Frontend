@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9cb1bff7-5352-4027-ac60-899ec762962a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Js/Js对象的创建.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Js/JS对象的序列化及逆序列化.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -103,7 +103,7 @@
       <workItem from="1611494900563" duration="3832000" />
       <workItem from="1611551630083" duration="6851000" />
       <workItem from="1611632504858" duration="9420000" />
-      <workItem from="1611674102744" duration="2531000" />
+      <workItem from="1611674102744" duration="2637000" />
     </task>
     <task id="LOCAL-00001" summary="ECMAJavaScript">
       <created>1611496578786</created>
@@ -245,7 +245,21 @@
       <option name="project" value="LOCAL" />
       <updated>1611676588238</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Js对象的创建">
+      <created>1611676652774</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1611676652774</updated>
+    </task>
+    <task id="LOCAL-00022" summary="ECMAScript">
+      <created>1611676695482</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1611676695482</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -288,8 +302,9 @@
     <MESSAGE value="Js函数的定义" />
     <MESSAGE value="Js函数参数及调用" />
     <MESSAGE value="Js函数作用域" />
-    <MESSAGE value="ECMAScript" />
     <MESSAGE value="Js内置对象" />
-    <option name="LAST_COMMIT_MESSAGE" value="Js内置对象" />
+    <MESSAGE value="Js对象的创建" />
+    <MESSAGE value="ECMAScript" />
+    <option name="LAST_COMMIT_MESSAGE" value="ECMAScript" />
   </component>
 </project>
