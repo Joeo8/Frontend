@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9cb1bff7-5352-4027-ac60-899ec762962a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Js/Js变量.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Js/Js语句和注释.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Js/数据类型.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Js/Js数据类型.html" beforeDir="false" afterPath="$PROJECT_DIR$/Js/Js数据类型.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,28 +51,29 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Language Defaults" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="JavaScript Debug.数据类型.html">
+  <component name="RunManager" selected="JavaScript Debug.Js数据类型.html">
     <configuration name="Js基础用法.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Frontend/Js/Js基础用法.html" useFirstLineBreakpoints="true" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="Js数据类型.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Frontend/Js/Js数据类型.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="Js变量.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Frontend/Js/Js变量.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="数据类型.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Frontend/Js/数据类型.html" useBuiltInWebServerPort="true">
+    <configuration name="Js数据类型.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Frontend/Js/Js数据类型.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <list>
       <item itemvalue="JavaScript Debug.Js基础用法.html" />
-      <item itemvalue="JavaScript Debug.Js变量.html" />
-      <item itemvalue="JavaScript Debug.数据类型.html" />
+      <item itemvalue="JavaScript Debug.Js数据类型.html" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.数据类型.html" />
-        <item itemvalue="JavaScript Debug.Js变量.html" />
+        <item itemvalue="JavaScript Debug.Js数据类型.html" />
         <item itemvalue="JavaScript Debug.Js基础用法.html" />
       </list>
     </recent_temporary>
@@ -90,7 +89,8 @@
       <workItem from="1611484603231" duration="990000" />
       <workItem from="1611485738330" duration="159000" />
       <workItem from="1611494900563" duration="3832000" />
-      <workItem from="1611551630083" duration="6532000" />
+      <workItem from="1611551630083" duration="6851000" />
+      <workItem from="1611632504858" duration="1062000" />
     </task>
     <task id="LOCAL-00001" summary="ECMAJavaScript">
       <created>1611496578786</created>
@@ -120,7 +120,35 @@
       <option name="project" value="LOCAL" />
       <updated>1611497567187</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Js变量">
+      <created>1611566616556</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1611566616556</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Js语句及注释">
+      <created>1611566665683</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1611566665683</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Js数据类型">
+      <created>1611566738298</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1611566738298</updated>
+    </task>
+    <task id="LOCAL-00008" summary="ECMAScript">
+      <created>1611566791026</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1611566791026</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -141,6 +169,10 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ECMAJavaScript" />
     <MESSAGE value="README" />
-    <option name="LAST_COMMIT_MESSAGE" value="README" />
+    <MESSAGE value="Js变量" />
+    <MESSAGE value="Js语句及注释" />
+    <MESSAGE value="Js数据类型" />
+    <MESSAGE value="ECMAScript" />
+    <option name="LAST_COMMIT_MESSAGE" value="ECMAScript" />
   </component>
 </project>
