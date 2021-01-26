@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9cb1bff7-5352-4027-ac60-899ec762962a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Js/Js数组.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Js/Js函数参数及调用.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Js/Js函数定义.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Js/Js数组方法.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -103,7 +105,7 @@
       <workItem from="1611494900563" duration="3832000" />
       <workItem from="1611551630083" duration="6851000" />
       <workItem from="1611632504858" duration="9420000" />
-      <workItem from="1611674102744" duration="1914000" />
+      <workItem from="1611674102744" duration="2130000" />
     </task>
     <task id="LOCAL-00001" summary="ECMAJavaScript">
       <created>1611496578786</created>
@@ -182,7 +184,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611674553121</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Js数组">
+      <created>1611676049069</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1611676049069</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -221,6 +230,7 @@
     <MESSAGE value="Js数据类型" />
     <MESSAGE value="Js类型转换" />
     <MESSAGE value="Js运算符" />
-    <option name="LAST_COMMIT_MESSAGE" value="Js运算符" />
+    <MESSAGE value="Js数组" />
+    <option name="LAST_COMMIT_MESSAGE" value="Js数组" />
   </component>
 </project>
