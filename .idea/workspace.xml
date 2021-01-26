@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9cb1bff7-5352-4027-ac60-899ec762962a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Js/Js类型转换.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Js/Js运算符.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,6 +44,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="full.screen.before.presentation.mode" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -51,11 +52,14 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Language Defaults" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="JavaScript Debug.Js类型转换.html">
+  <component name="RunManager" selected="JavaScript Debug.Js运算符.html">
     <configuration name="Js基础用法.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Frontend/Js/Js基础用法.html" useFirstLineBreakpoints="true" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="Js运算符.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Frontend/Js/Js运算符.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="Js数据类型.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Frontend/Js/Js数据类型.html" useBuiltInWebServerPort="true">
@@ -72,13 +76,11 @@
     </configuration>
     <list>
       <item itemvalue="JavaScript Debug.Js基础用法.html" />
-      <item itemvalue="JavaScript Debug.Js数据类型.html" />
-      <item itemvalue="JavaScript Debug.Js类型转换.html" />
+      <item itemvalue="JavaScript Debug.Js运算符.html" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.Js类型转换.html" />
-        <item itemvalue="JavaScript Debug.Js数据类型.html" />
+        <item itemvalue="JavaScript Debug.Js运算符.html" />
         <item itemvalue="JavaScript Debug.Js基础用法.html" />
       </list>
     </recent_temporary>
@@ -95,7 +97,8 @@
       <workItem from="1611485738330" duration="159000" />
       <workItem from="1611494900563" duration="3832000" />
       <workItem from="1611551630083" duration="6851000" />
-      <workItem from="1611632504858" duration="3157000" />
+      <workItem from="1611632504858" duration="9420000" />
+      <workItem from="1611674102744" duration="424000" />
     </task>
     <task id="LOCAL-00001" summary="ECMAJavaScript">
       <created>1611496578786</created>
@@ -160,7 +163,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611633622550</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Js类型转换">
+      <created>1611635871959</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1611635871959</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -171,7 +181,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -185,6 +207,8 @@
     <MESSAGE value="Js语句及注释" />
     <MESSAGE value="ECMAScript" />
     <MESSAGE value="Js数据类型" />
-    <option name="LAST_COMMIT_MESSAGE" value="Js数据类型" />
+    <MESSAGE value="Js类型转换" />
+    <MESSAGE value="Js运算符" />
+    <option name="LAST_COMMIT_MESSAGE" value="Js运算符" />
   </component>
 </project>
