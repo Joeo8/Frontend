@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Js类型转换</title>
+</head>
+<body>
+</body>
+<!--
+    类型转换:
+
+        自动类型转换
+        函数类型转换(直接收字符串类型String)
+               1.ParseInt()
+               2.ParseFloat()
+        显示转换
+            1.toString()
+            2.toFixed()
+        构造方法：
+            Js为Number、boolean、String对象提供了构造方法，用于强制转换其它类型的数据。
+        强制类型转换（String）
+        最简单的转字符串方式，往任意数据后面加"字符串"
+
+-->
+<script type="text/javascript">
+    //自动类型转换
+
+    //函数类型转换
+    //1.ParseInt
+    console.log(parseInt("123abc"));    //123
+    console.log(parseInt("12a3bc"));    //12
+    console.log(parseInt("123.45c"));   //123
+    console.log(parseInt("abc"));       //Nan
+    //2.ParseFloat
+    console.log(parseFloat("123.abc")); //123
+    console.log(parseFloat("123.45abc"));//123.45
+    console.log(parseFloat("0.abc"));   //0
+
+    //显示转换
+    //1.toString()
+    console.log('123.abc'.toString()); //123.abc
+    //2.toFixed()
+    console.log((1.46).toFixed(0)); //1
+    console.log((1.46).toFixed(1)); //1.5
+
+    //Number
+    console.log(Number('123'));//123
+    console.log(Number('1.23'));//1.23
+    console.log(Number('1.2.3'));//Nan
+
+    //String ==> 将任意值转换成字符串，包括null和Undefined
+    var qq = null ;
+    console.log(String(qq)); //null
+    var pp = undefined; //undefined
+    console.log(String(pp));
+    var oo = "123asd";
+    console.log(String(oo)); //123asd
+    //最简单的字符串转换（在后面加‘’）
+    var flag = true;
+    console.log(flag);  //true（Boolean类型）
+    console.log(flag+'');//true(String类型)
+</script>
+</html>
