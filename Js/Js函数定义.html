@@ -5,6 +5,48 @@
     <title>Js函数的定义</title>
 </head>
 <body>
-
 </body>
+<!--
+   函数：
+        函数的定义:(函数声明语句、函数定义表达式、Function构造函数)
+            1.函数声明语句
+                function 函数名([参数列表]){
+
+                }
+             2.函数定义表达式
+                var 变量名称 =  function([参数列表]){
+
+                }
+             3.Function构造函数  (了解即可，用的非常少)
+                var 变量名 = new Function('a','b',,'return (a+b)')
+-->
+<script type="text/javascript">
+    //函数的定义
+    //1.函数声明语句
+    function test() {
+        console.log("函数声明语句。。。。。");
+    }
+    test(); //调用函数
+    //带参数的函数
+    function test01(a){
+        console.log(a);
+    }
+    test01(1);
+
+    //2.函数定义表达式
+    var test03 = function (){
+        console.log("这是函数定义表达式、、、、、");
+    }
+    test03();
+    //带参数的函数定义表达式
+    var test04 = function (a,b){
+        console.log(a,b);
+    }
+    test04(2,22);
+
+    //Function构造函数 (了解即可，用的非常少)
+    var test05 = new Function('a','b','c','return(a+b+c)');
+    var number = test05(1,2,3);
+    console.log(number);
+</script>
 </html>
