@@ -2,9 +2,88 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Js函数参数及调用</title>
+    <title>Js函数参数、调用及return</title>
 </head>
 <body>
-
 </body>
+<!--
+    函数参数及调用:
+        函数的参数
+            1.参数可以省略，忽略时显示Undefined
+            2.若函数形参同名（一般不会这么干），在使用时以最后一个值为准
+            3.可以给参数设置默认值:当参数为特殊值时，可以赋予其默认值
+            4.参数为值传递，传递的是副本;引用传递传递的是地址，操作同一个对象
+        函数的调用:
+            1.常用的调用方式  函数名([参数列表])
+            2.函数调用模式
+            3.对象调用模式
+        函数的返回:
+            1.如果函数有返回值，则return
+            2.如果函数不需要返回数据时,则无返回值;或者说返回Undefined
+            3.如果函数不需要返回值时，使用return，则表示结束方法
+                作用:
+                    1.返回结果给调用者
+                    2.结束语句
+-->
+<script type="text/javascript">
+    //如果调用函数时，忽略了参数，则会返回undefined
+    function  fn(str){
+        console.log(str);
+    }
+    fn(); //Undefined
+
+    //如果参数列表中有同名的，则以后面的为基准
+    function fnn(a,a,a){
+        console.log(a);
+    }
+    fnn(1,2,3);     //3
+
+    //可以给参数设置默认值:当参数为特殊值时，可以赋予默认值
+    function fn3(a){
+        a = a || 'a';
+        return a ;
+    }
+    var res = fn3();
+    console.log(res); //a
+
+    //参数为值传递，传递副本;引用传递传递的是地址，操作的是同一个对象
+
+    //值传递
+    var n = 10 ;
+    function fn4(number){
+        number += 1;
+        console.log(number);
+    }
+    fn4(n);  //11
+    console.log(n) //10
+
+    //引用传递（对象）
+    var obj = {
+        uname : 'joeo8',
+        uage : 18
+    };
+    function fn6(o){
+        o.uname = 'jolly';  //修改对象中的属性值
+    }
+    fn6(obj);
+    console.log(obj); //{uname: "jolly", uage: 18}
+
+    //======================函数的调用=========================
+    //函数调用模式
+    function add(a,b){
+        return a+b;
+    }
+    var sum = add(1,2);
+    console.log(sum); //3
+    //对象调用模式
+    var ob = {
+        name : 'zs',
+        age :18,
+        sex : true,
+        test : function (){
+            console.log("对象调用模式、、、");
+        }
+    };
+    ob.test();
+</script>
 </html>
