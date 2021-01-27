@@ -110,7 +110,7 @@
       <workItem from="1611551630083" duration="6851000" />
       <workItem from="1611632504858" duration="9420000" />
       <workItem from="1611674102744" duration="2777000" />
-      <workItem from="1611732929587" duration="2498000" />
+      <workItem from="1611732929587" duration="2732000" />
     </task>
     <task id="LOCAL-00001" summary="ECMAJavaScript">
       <created>1611496578786</created>
@@ -287,7 +287,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611734433847</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Js函数定义">
+      <created>1611735452427</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1611735452427</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -335,6 +342,7 @@
     <MESSAGE value="Js对象的序列化和逆序列化" />
     <MESSAGE value="ECMAScript" />
     <MESSAGE value="Js数组方法" />
-    <option name="LAST_COMMIT_MESSAGE" value="Js数组方法" />
+    <MESSAGE value="Js函数定义" />
+    <option name="LAST_COMMIT_MESSAGE" value="Js函数定义" />
   </component>
 </project>
