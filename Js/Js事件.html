@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Js事件</title>
+</head>
+<body onload="loadWindows()">
+</body>
+<!--
+    Js事件
+        load加载事件(当页面加载完毕后执行的事件)
+
+    常用事件:
+        onload 当页面或图像加载完后立即触发
+        onblur 元素失去焦点
+        onfocus 元素获得焦点
+        onclick 鼠标点击某个对象
+        onchange 用户改变域的内容
+        onmouseover 鼠标移动到某元素上
+        onmouseout  鼠标从某元素上离开
+        onkeyup  键盘的某个按键被松开
+        onkeydown 键盘的某个按键被按下
+    事件流:
+        接收事件的顺序
+    事件流的顺序: 事件冒泡和事件捕获
+    事件冒泡(从小到大)
+       事件开始时由最具体的元素接收，然后逐级向上传播到较为不具体的节点（文档）
+    事件捕获(从大到小)
+        事件开始时由document对象接收，然后逐级向下传播到具体的节点
+-->
+<script type="text/javascript">
+    function loadWindows(){
+        console.log('加载......');
+    }
+</script>
+</html>
