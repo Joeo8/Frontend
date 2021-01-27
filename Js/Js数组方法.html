@@ -5,6 +5,77 @@
     <title>Js数组方法</title>
 </head>
 <body>
-
 </body>
+<!--
+    数组方法：
+        push:添加元素到最后
+        unshift:添加元素到最前
+        pop:删除最后一项
+        shift:删除第一项
+        reverse:数组反转
+        join:数组转成字符串
+        indexOf:数组元素索引
+        slice:截取切片数组，原数组不发生改变
+        splice:剪接数组，原数组发生变化，可以实现前后删除效果
+        concat:数组合并
+-->
+<script type="text/javascript">
+
+    //定义数组
+    var arr = [1,2,'a',3,'b'];
+    //数组方法操作
+    //push ==> 添加元素到最后
+    arr.push('c');
+    //unshift ==>添加元素到最前
+    arr.unshift(0);
+    console.log(arr);
+    /*
+    Array(7)
+    0: 0
+    1: 1
+    2: 2
+    3: "a"
+    4: 3
+    5: "b"
+    6: "c"
+    length: 7
+    */
+
+    //pop ==》 删除最后一项
+    arr.pop();
+    //shift ==》删除第一项
+    arr.shift();
+    console.log(arr);
+    /*
+    0: 1
+    1: 2
+    2: "a"
+    3: 3
+    4: "b"
+    length: 5
+    */
+
+    //reverse ==> 数组反转
+    var ReversArr = arr.reverse();
+    console.log(ReversArr);
+    //join ==》 数组转化成字符串
+    var str = arr.join();
+    console.log(str);
+    //indexOf ==》 查找数组所在的索引
+    var index = arr.indexOf('a');
+    console.log(index);
+    //slice ==> 截取切片数组（原数组结构不发生改变）
+    var SliceArr = arr.slice(2,3);
+    console.log(SliceArr);
+    console.log(arr);
+    //splice ==> 剪接数组，原数组发生改变，可以实现前后删除的效果
+    var SpliceArr = arr.splice(1,2,'aa','bb');
+    console.log(SpliceArr);
+    console.log(arr);
+    //concat ==》数组合并
+    var newArr = [100,200];
+    var ConcatArr = arr.concat(newArr);
+    console.log(ConcatArr);
+    console.log(arr);
+</script>
 </html>
