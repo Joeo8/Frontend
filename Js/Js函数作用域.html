@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Js函数作用域</title>
+    <meta charset="UTF-8">
+    <title>Js函数作用域</title>
 </head>
 <body>
 </body>
@@ -12,18 +12,20 @@
       2.在函数中定义变量时，若没有var关键字，使用之后自动变成全局变量
 -->
 <script type="text/javascript">
-  //全局变量与局部变量同名
-  var bb = 10 ; //全局变量
-  function fn(b){
-    var b = 10;
-    var bb = 200;
-    console.log(bb);  //就近原则
-    c = 999; //没有var修饰符,用完自动变成全局变量
-  }
-  fn(bb); //200
-  // console.log(b); // not defined
-  console.log(bb); //10
-  console.log(c);// 999
+    //全局变量与局部变量同名
+    var bb = 10; //全局变量
+    function fn(b) {
+        b = 10;
+        var bb = 200;  //局部变量
+        console.log(b);
+        console.log(bb);  //就近原则
+        c = 999; //没有var修饰符,用完自动变成全局变量
+    }
+
+    fn(bb); //200
+    console.log(b); // not defined
+    console.log(bb); //10
+    console.log(c);// 999
 
 </script>
 </html>

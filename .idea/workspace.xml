@@ -120,7 +120,7 @@
       <workItem from="1611551630083" duration="6851000" />
       <workItem from="1611632504858" duration="9420000" />
       <workItem from="1611674102744" duration="2777000" />
-      <workItem from="1611732929587" duration="6161000" />
+      <workItem from="1611732929587" duration="7946000" />
     </task>
     <task id="LOCAL-00001" summary="ECMAJavaScript">
       <created>1611496578786</created>
@@ -318,7 +318,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611739002551</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Js函数作用域">
+      <created>1611739654083</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1611739654083</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -360,7 +367,6 @@
     <MESSAGE value="Js数组中的方法" />
     <MESSAGE value="Js函数的定义" />
     <MESSAGE value="Js函数参数及调用" />
-    <MESSAGE value="Js函数作用域" />
     <MESSAGE value="Js内置对象" />
     <MESSAGE value="Js对象的创建" />
     <MESSAGE value="Js对象的序列化和逆序列化" />
@@ -368,6 +374,7 @@
     <MESSAGE value="Js数组方法" />
     <MESSAGE value="Js函数定义" />
     <MESSAGE value="Js函数参数函数调用及函数返回值" />
-    <option name="LAST_COMMIT_MESSAGE" value="Js函数参数函数调用及函数返回值" />
+    <MESSAGE value="Js函数作用域" />
+    <option name="LAST_COMMIT_MESSAGE" value="Js函数作用域" />
   </component>
 </project>
