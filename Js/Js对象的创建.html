@@ -5,6 +5,67 @@
     <title>Js对象的创建</title>
 </head>
 <body>
-
 </body>
+<!--
+    Js对象的创建:(字面量形式创建、通过New Object创建、通过Object对象的create方法创建对象)
+        1.字面量形式创建对象
+            var 对象名 = {} //空对象
+            var 对象名 = {
+               键:值,
+               键:值,
+               ,,
+            }
+
+        2.通过New Onject创建
+            var 对象名 =  new Object(); //空对象
+
+        3.通过Object对象的create方法创建
+            var 对象名 = Object.create(null);
+            var 对象名 = Object.create(Obj);  //以参考对象为模板创建新的对象
+
+    赋值:对象名.键 = 值 (如果键存在，则表示修改数据，如果键不存在，则表示添加数组)
+-->
+<script type="text/javascript">
+    //字面量创建对象
+    var obj = {} ; //空对象
+    console.log(obj);
+    //对象的赋值
+    obj.uname = 'zs';
+    obj.age = 18;
+    console.log(obj);  //{uname: "zs", age: 18}
+    //非空对象(对象里面可以放任意种类)
+    var obj2 = {
+        uname : 'zhangsan',
+        age : 18,
+        isLike : true,
+        sayHello : function(){
+            console.log('Hi,Joeo8 !');
+        },
+        cats : ['big','Small','小皇'],
+        dog:{
+            name : '张二狗',
+            age : 3
+        },
+    };
+    console.log(obj2);
+    console.log(obj2.uname);
+    obj2.sayHello();
+    obj2.age = 20;
+    console.log(obj2);
+
+    //new object创建对象
+    var obj3 = new Object();
+    obj3.uname = 'lisa';
+    console.log(obj3);
+
+    //create方法创建
+    var obj4 = Object.create(null);
+    obj4.uname = 'ls';
+    obj4.sex = true;
+    console.log(obj4);
+
+    var obj5 = Object.create(obj2);
+    console.log(obj5.name);
+
+</script>
 </html>

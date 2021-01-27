@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="9cb1bff7-5352-4027-ac60-899ec762962a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Js/Js内置对象.html" beforeDir="false" afterPath="$PROJECT_DIR$/Js/Js内置对象.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Js/Js对象的创建.html" beforeDir="false" afterPath="$PROJECT_DIR$/Js/Js对象的创建.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,11 +55,11 @@
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="JavaScript Debug.Js内置对象.html">
+  <component name="RunManager" selected="JavaScript Debug.Js对象的创建.html">
     <configuration name="Js内置对象.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Frontend/Js/Js内置对象.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="Js数组方法.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Frontend/Js/Js数组方法.html" useBuiltInWebServerPort="true">
+    <configuration name="Js对象的创建.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Frontend/Js/Js对象的创建.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="Js函数定义.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Frontend/Js/Js函数定义.html" useBuiltInWebServerPort="true">
@@ -90,19 +90,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="JavaScript Debug.Js数组方法.html" />
       <item itemvalue="JavaScript Debug.Js函数定义.html" />
       <item itemvalue="JavaScript Debug.Js函数参数及调用.html" />
       <item itemvalue="JavaScript Debug.Js函数作用域.html" />
       <item itemvalue="JavaScript Debug.Js内置对象.html" />
+      <item itemvalue="JavaScript Debug.Js对象的创建.html" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.Js对象的创建.html" />
         <item itemvalue="JavaScript Debug.Js内置对象.html" />
         <item itemvalue="JavaScript Debug.Js函数作用域.html" />
         <item itemvalue="JavaScript Debug.Js函数参数及调用.html" />
         <item itemvalue="JavaScript Debug.Js函数定义.html" />
-        <item itemvalue="JavaScript Debug.Js数组方法.html" />
       </list>
     </recent_temporary>
   </component>
@@ -120,7 +120,7 @@
       <workItem from="1611551630083" duration="6851000" />
       <workItem from="1611632504858" duration="9420000" />
       <workItem from="1611674102744" duration="2777000" />
-      <workItem from="1611732929587" duration="10811000" />
+      <workItem from="1611732929587" duration="12788000" />
     </task>
     <task id="LOCAL-00001" summary="ECMAJavaScript">
       <created>1611496578786</created>
@@ -332,7 +332,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611742042113</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Js内置对象">
+      <created>1611754205136</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1611754205136</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -374,7 +381,6 @@
     <MESSAGE value="Js数组中的方法" />
     <MESSAGE value="Js函数的定义" />
     <MESSAGE value="Js函数参数及调用" />
-    <MESSAGE value="Js内置对象" />
     <MESSAGE value="Js对象的创建" />
     <MESSAGE value="Js对象的序列化和逆序列化" />
     <MESSAGE value="ECMAScript" />
@@ -382,6 +388,7 @@
     <MESSAGE value="Js函数定义" />
     <MESSAGE value="Js函数参数函数调用及函数返回值" />
     <MESSAGE value="Js函数作用域" />
-    <option name="LAST_COMMIT_MESSAGE" value="Js函数作用域" />
+    <MESSAGE value="Js内置对象" />
+    <option name="LAST_COMMIT_MESSAGE" value="Js内置对象" />
   </component>
 </project>
