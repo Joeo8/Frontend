@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="9cb1bff7-5352-4027-ac60-899ec762962a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Js/Js函数作用域.html" beforeDir="false" afterPath="$PROJECT_DIR$/Js/Js函数作用域.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Js/Js内置对象.html" beforeDir="false" afterPath="$PROJECT_DIR$/Js/Js内置对象.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,8 +55,8 @@
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="JavaScript Debug.Js函数作用域.html">
-    <configuration name="Js基础用法.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Frontend/Js/Js基础用法.html" useFirstLineBreakpoints="true" useBuiltInWebServerPort="true">
+  <component name="RunManager" selected="JavaScript Debug.Js内置对象.html">
+    <configuration name="Js内置对象.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Frontend/Js/Js内置对象.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="Js数组方法.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Frontend/Js/Js数组方法.html" useBuiltInWebServerPort="true">
@@ -90,19 +90,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="JavaScript Debug.Js基础用法.html" />
       <item itemvalue="JavaScript Debug.Js数组方法.html" />
       <item itemvalue="JavaScript Debug.Js函数定义.html" />
       <item itemvalue="JavaScript Debug.Js函数参数及调用.html" />
       <item itemvalue="JavaScript Debug.Js函数作用域.html" />
+      <item itemvalue="JavaScript Debug.Js内置对象.html" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.Js内置对象.html" />
         <item itemvalue="JavaScript Debug.Js函数作用域.html" />
         <item itemvalue="JavaScript Debug.Js函数参数及调用.html" />
         <item itemvalue="JavaScript Debug.Js函数定义.html" />
         <item itemvalue="JavaScript Debug.Js数组方法.html" />
-        <item itemvalue="JavaScript Debug.Js基础用法.html" />
       </list>
     </recent_temporary>
   </component>
@@ -120,7 +120,7 @@
       <workItem from="1611551630083" duration="6851000" />
       <workItem from="1611632504858" duration="9420000" />
       <workItem from="1611674102744" duration="2777000" />
-      <workItem from="1611732929587" duration="7946000" />
+      <workItem from="1611732929587" duration="10811000" />
     </task>
     <task id="LOCAL-00001" summary="ECMAJavaScript">
       <created>1611496578786</created>
@@ -325,7 +325,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611739654083</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Js函数作用域">
+      <created>1611742042113</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1611742042113</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

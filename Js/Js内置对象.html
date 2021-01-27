@@ -5,6 +5,75 @@
     <title>Js内置对象</title>
 </head>
 <body>
-
 </body>
+<!--
+    内置对象:
+        String :
+            charAt(index) ==> 返回指定位置的字符
+            indexOf(Chr)  ==> 返回指定字符串的位置，从左到右，找不到返回-1
+            substr(m,n)   ==> 返回指定字符串从m开始，取n个字符，如果参数n省略，则取到末尾
+            substring(m,n)==> 返回指定字符串，从m开始取到n个位置。
+            toLowerCase() ==> 将字符串中的字符全部转换为小写
+            toUpperCase() ==> 将字符串中的字符全部转换为大写
+            length        ==》 属性，不是方法，返回字符串的长度
+        Math :
+            Math.random() ==> 随机数
+            Math.ceil()   ==> 向上取整
+            Math.floor()  ==> 向下取整
+
+        Date :
+            //获取日期
+            getFullYear()   年
+            getMonth()      月
+            getDate()       日
+            getHours()      时
+            getMinutes()    分
+            getSeconds()    秒
+
+            //设置日期
+            setYear()       年
+            setMonth()      月
+            setDate()       日
+            setHours()      时
+            setMinutes()    分
+            setSeconds()    秒
+            toLocaleString()转换成本地时间字符串
+        注:
+            1.getMonth() 得到的值0~11 （1月~12月）
+            2.setMonth() 设置值为0~11
+            3.toLocaleString()可以根据本地时间把Date对象转换成字符串，并返回结果
+-->
+<script type="text/javascript">
+        //String
+        var str = '123abc456def';
+        console.log(str);
+        console.log(str.charAt(5));
+        console.log(str.indexOf('a'));
+        console.log(str.substr(1,4));
+        console.log(str.substring(1,4));
+        console.log(str.toLowerCase());
+        console.log(str.toUpperCase());
+        console.log(str.length);
+        /*
+         123abc456def
+         c
+         3
+         23ab
+         23a
+         123abc456def
+         123ABC456DEF
+         12
+        */
+
+        //Math
+        console.log(Math.random());     //0.03477347076784354
+        var num = 1.4 ;
+        console.log(Math.ceil(num));    //2
+        console.log(Math.floor(num));   //1
+
+        //Date
+        var date = new Date();
+        console.log(date.getFullYear()); //2021
+
+</script>
 </html>
