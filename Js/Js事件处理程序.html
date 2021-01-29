@@ -35,17 +35,17 @@
         console.log('鼠标停留.....');
     }
 
-    window.onload = function () {
+    // window.onload = function () {
         //通过id属性获取元素对象
         var btn = document.getElementById('btn');
         console.log(btn);
         btn.onclick = function () {
             console.log('O级处理程序点击事件。。。。。')
         }
-        btn.onclick = function () { //为用一个对象只能绑定一个事件，多个则覆盖
+        btn.onclick = function () { //为同一个对象只能绑定一个事件，多个则覆盖
             console.log('XXXXXXXXXXXXX');
         }
-    }
+    // }
 
     //Dom 2级事件处理程序
     var btn1 = document.getElementById('btn1');
