@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9cb1bff7-5352-4027-ac60-899ec762962a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Js/Js事件处理程序.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Js/Js常用事件.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Js/Js事件.html" beforeDir="false" afterPath="$PROJECT_DIR$/Js/Js事件.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Js/Js事件处理程序.html" beforeDir="false" afterPath="$PROJECT_DIR$/Js/Js事件处理程序.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,11 +62,23 @@
       <recent name="C:\Users\Joeo8\Desktop\Frontend\Js\ECMAJS" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.Js事件处理程序.html">
+  <component name="RunManager" selected="JavaScript Debug.Js常用事件.html">
     <configuration name="JS对象的序列化及逆序列化.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Frontend/Js/ECMAJS/JS对象的序列化及逆序列化.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="Js内置对象.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Frontend/Js/ECMAJS/Js内置对象.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="Js常用事件.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Frontend/Js/Js常用事件.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="Js事件处理程序.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Frontend/Js/Js事件处理程序.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="Js类型转换.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Frontend/Js/Js类型转换.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="Js变量.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Frontend/Js/Js变量.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="Js事件处理程序.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Frontend/Js/Js事件处理程序.html" useBuiltInWebServerPort="true">
@@ -93,19 +105,15 @@
     <configuration name="Js数据类型.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Frontend/Js/Js数据类型.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="Js类型转换.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Frontend/Js/Js类型转换.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="Js变量.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Frontend/Js/Js变量.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="JavaScript Debug.Js内置对象.html" />
       <item itemvalue="JavaScript Debug.JS对象的序列化及逆序列化.html" />
+      <item itemvalue="JavaScript Debug.Js常用事件.html" />
       <item itemvalue="JavaScript Debug.Js事件处理程序.html" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.Js常用事件.html" />
         <item itemvalue="JavaScript Debug.Js事件处理程序.html" />
         <item itemvalue="JavaScript Debug.JS对象的序列化及逆序列化.html" />
         <item itemvalue="JavaScript Debug.Js内置对象.html" />
@@ -127,7 +135,8 @@
       <workItem from="1611632504858" duration="9420000" />
       <workItem from="1611674102744" duration="2777000" />
       <workItem from="1611732929587" duration="15893000" />
-      <workItem from="1611832639368" duration="2041000" />
+      <workItem from="1611832639368" duration="6557000" />
+      <workItem from="1611921031853" duration="4729000" />
     </task>
     <task id="LOCAL-00001" summary="ECMAJavaScript">
       <created>1611496578786</created>
@@ -367,7 +376,21 @@
       <option name="project" value="LOCAL" />
       <updated>1611758890659</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Js事件">
+      <created>1611835320960</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1611835320961</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Js事件处理程序">
+      <created>1611835409939</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1611835409939</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -419,6 +442,7 @@
     <MESSAGE value="Js对象的创建" />
     <MESSAGE value="Js对象的序列化与反序列化" />
     <MESSAGE value="Js事件" />
-    <option name="LAST_COMMIT_MESSAGE" value="Js事件" />
+    <MESSAGE value="Js事件处理程序" />
+    <option name="LAST_COMMIT_MESSAGE" value="Js事件处理程序" />
   </component>
 </project>
