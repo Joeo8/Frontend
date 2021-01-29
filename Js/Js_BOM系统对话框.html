@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>系统对话框</title>
+</head>
+<body>
+<h3>系统对话框</h3>
+<hr>
+<button type="button" onclick="testalert()">Alert消息框</button>
+<button type="button" onclick="testprompt()">Prompt输入框</button>
+<button type="button" onclick="testconfirm()">Confirm确认框</button>
+</body>
+<!--
+    Js-BOM系统对话框
+        1)消息框:alert
+           alert()方法用于显示带有一条指定消息和一个ok按钮的警告框
+        2)输入框:prompt,返回提示框中的值
+            prompt()方法用于显示可提示用户进行输入的对话框
+            参数(可选):
+                第一个参数:要在对话框中显示的纯文本
+                第二个参数:默认的输入文本
+        3)确认框: confirm,返回 true/false
+            confirm()方法用于显示一个带有指定消息和ok及取消按钮的对话框
+-->
+<script type="text/javascript">
+    function testalert() {
+        window.alert('hello');
+    }
+
+    function testprompt() {
+        var name = window.prompt('请输入用户名:', '');
+        console.log(name);
+    }
+
+    function testconfirm() {
+        var flag = confirm('您确认要删除吗？（Y/N）');
+        if (flag) {
+            console.log("删除成功!");
+        } else {
+            console.log('感谢继续使用!');
+        }
+    }
+
+</script>
+</html>
