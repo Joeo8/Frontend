@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Js常用事件</title>
+</head>
+<body>
+    姓名: <input type="text" id="name">
+<button type="button" onclick="clickbtn()">按钮</button>
+</body>
+<!--
+    Js常用事件
+        onload 当页面或图像加载完后立即触发
+        onblur 元素失去焦点
+        onfocus 元素获得焦点
+        onclick 鼠标点击某个对象
+        onchange 用户改变域的内容
+        onmouseover 鼠标移动到某元素上
+        onmouseout  鼠标从某元素上离开
+        onkeyup  键盘的某个按键被松开
+        onkeydown 键盘的某个按键被按下
+-->
+<script type="text/javascript">
+    //onload事件，当页面或图像加载完毕后立即触发
+    window.onload = function () {
+        console.log('页面加载完毕');
+        //onblur :失去焦点事件
+        var name = document.getElementById('name');
+        name.onblur = function (){
+            console.log("输入框失去焦点....")
+        }
+        //onfocus :获取焦点事件
+        name.onfocus = function () {
+            console.log("文本框获得焦点....")
+        }
+    }
+
+    //onclick : 鼠标点击某个对象
+    function clickbtn() {
+        console.log('按钮被点击.....');
+    }
+</script>
+</html>
