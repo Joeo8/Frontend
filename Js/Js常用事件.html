@@ -5,8 +5,17 @@
     <title>Js常用事件</title>
 </head>
 <body>
-    姓名: <input type="text" id="name">
+姓名: <input type="text" id="name">
 <button type="button" onclick="clickbtn()">按钮</button>
+<hr>
+城市:<label for="city"></label><select id="city">
+    <option value="">请选择城市</option>
+    <option value="">上海</option>
+    <option value="">北京</option>
+    <option value="">深圳</option>
+</select>
+<hr>
+<div id="div1">这是一个div</div>
 </body>
 <!--
     Js常用事件
@@ -26,12 +35,20 @@
         console.log('页面加载完毕');
         //onblur :失去焦点事件
         var name = document.getElementById('name');
-        name.onblur = function (){
+        name.onblur = function () {
             console.log("输入框失去焦点....")
         }
         //onfocus :获取焦点事件
         name.onfocus = function () {
-            console.log("文本框获得焦点....")
+            console.log("文本框获得焦点....");
+        }
+        //onkeyup  键盘的某个按键被松开
+        name.onkeyup = function () {
+            console.log('键盘按下----');
+        }
+        //onkeydown 键盘的某个按键被按下
+        name.onkeydown = function () {
+            console.log('键盘弹开----');
         }
     }
 
@@ -39,5 +56,19 @@
     function clickbtn() {
         console.log('按钮被点击.....');
     }
+
+    //onchange : 用户改变域的内容
+    document.getElementById('city').onchange = function () {
+        console.log('下拉框的值改变了....');
+    }
+    //onmouseover 鼠标移动到某元素上
+    document.getElementById('div1').onmouseover = function () {
+        console.log('鼠标悬停。。。。');
+    }
+    //onmouseout  鼠标从某元素上离开
+    document.getElementById('div1').onmouseout = function () {
+        console.log('。。。。。鼠标离开');
+    }
+
 </script>
 </html>
