@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9cb1bff7-5352-4027-ac60-899ec762962a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Js/Js_Bom打开窗口.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Js/Js_Bom关闭窗口.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Js/Js_Bom打开窗口.html" beforeDir="false" afterPath="$PROJECT_DIR$/Js/Js_Bom打开窗口.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -140,7 +141,7 @@
       <workItem from="1611674102744" duration="2777000" />
       <workItem from="1611732929587" duration="15893000" />
       <workItem from="1611832639368" duration="6557000" />
-      <workItem from="1611921031853" duration="7855000" />
+      <workItem from="1611921031853" duration="8201000" />
     </task>
     <task id="LOCAL-00001" summary="ECMAJavaScript">
       <created>1611496578786</created>
@@ -429,7 +430,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611932238919</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="Bom打开窗口">
+      <created>1611932787462</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1611932787462</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -484,6 +492,7 @@
     <MESSAGE value="Js事件处理程序" />
     <MESSAGE value="Js常用事件" />
     <MESSAGE value="Bom系统对话框" />
-    <option name="LAST_COMMIT_MESSAGE" value="Bom系统对话框" />
+    <MESSAGE value="Bom打开窗口" />
+    <option name="LAST_COMMIT_MESSAGE" value="Bom打开窗口" />
   </component>
 </project>
