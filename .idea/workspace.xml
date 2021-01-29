@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9cb1bff7-5352-4027-ac60-899ec762962a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Js/Js_BOM系统对话框.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Js/Js_Bom打开窗口.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,14 +61,14 @@
       <recent name="C:\Users\Joeo8\Desktop\Frontend\Js\ECMAJS" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.Js_BOM系统对话框.html">
+  <component name="RunManager" selected="JavaScript Debug.Js_Bom打开窗口.html">
     <configuration name="JS对象的序列化及逆序列化.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Frontend/Js/ECMAJS/JS对象的序列化及逆序列化.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="Js_BOM系统对话框.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Frontend/Js/Js_BOM系统对话框.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="Js内置对象.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Frontend/Js/ECMAJS/Js内置对象.html" useBuiltInWebServerPort="true">
+    <configuration name="Js_Bom打开窗口.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Frontend/Js/Js_Bom打开窗口.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="Js常用事件.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Frontend/Js/Js常用事件.html" useBuiltInWebServerPort="true">
@@ -108,19 +108,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="JavaScript Debug.Js内置对象.html" />
       <item itemvalue="JavaScript Debug.JS对象的序列化及逆序列化.html" />
       <item itemvalue="JavaScript Debug.Js常用事件.html" />
       <item itemvalue="JavaScript Debug.Js事件处理程序.html" />
       <item itemvalue="JavaScript Debug.Js_BOM系统对话框.html" />
+      <item itemvalue="JavaScript Debug.Js_Bom打开窗口.html" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.Js_Bom打开窗口.html" />
         <item itemvalue="JavaScript Debug.Js_BOM系统对话框.html" />
         <item itemvalue="JavaScript Debug.Js常用事件.html" />
         <item itemvalue="JavaScript Debug.Js事件处理程序.html" />
         <item itemvalue="JavaScript Debug.JS对象的序列化及逆序列化.html" />
-        <item itemvalue="JavaScript Debug.Js内置对象.html" />
       </list>
     </recent_temporary>
   </component>
@@ -140,7 +140,7 @@
       <workItem from="1611674102744" duration="2777000" />
       <workItem from="1611732929587" duration="15893000" />
       <workItem from="1611832639368" duration="6557000" />
-      <workItem from="1611921031853" duration="7311000" />
+      <workItem from="1611921031853" duration="7855000" />
     </task>
     <task id="LOCAL-00001" summary="ECMAJavaScript">
       <created>1611496578786</created>
@@ -422,7 +422,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611927219381</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="Bom系统对话框">
+      <created>1611932238919</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1611932238919</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -476,6 +483,7 @@
     <MESSAGE value="Js事件" />
     <MESSAGE value="Js事件处理程序" />
     <MESSAGE value="Js常用事件" />
-    <option name="LAST_COMMIT_MESSAGE" value="Js常用事件" />
+    <MESSAGE value="Bom系统对话框" />
+    <option name="LAST_COMMIT_MESSAGE" value="Bom系统对话框" />
   </component>
 </project>

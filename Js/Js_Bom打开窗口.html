@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>打开窗口</title>
+</head>
+<body>
+    <button type="button" id="but">打开窗口</button>
+</body>
+<!--
+    打开窗口
+        window.open()方法可以导航到一个特定的URL,也可以用来打开一个新的窗口
+-->
+<script type="text/javascript">
+    document.getElementById('but').onclick = function(){
+        //打开空白窗口
+        // window.open();
+
+        //打开指定窗口 --》 本地文件窗口
+        // window.open("Js_BOM系统对话框.html");
+
+        //打开指定窗口 --》 网络资源
+        // window.open("http://www.baidu.com");
+        //指定打开方式 (在当前页面打开)
+        window.open("http://www.baidu.com",'_self');
+    }
+</script>
+</html>
