@@ -35,29 +35,32 @@
 <script type="text/javascript">
     //获取容器
     var div = document.getElementById('container');
+    var music = document.getElementsByName('music')[0];
+
     //添加段落
     function addPara() {
         //添加段落
         var p = document.createElement('p');
 
         //方式一
-       /* //创建文本节点
-        var text = document.createTextNode('这是一段文本');
-        //将文本节点追加到元素节点中
-        p.appendChild(text);
-        //将p标签放置到div中
-        div.appendChild(p);*/
+        /* //创建文本节点
+         var text = document.createTextNode('这是一段文本');
+         //将文本节点追加到元素节点中
+         p.appendChild(text);
+         //将p标签放置到div中
+         div.appendChild(p);*/
 
         // 方式二
         p.innerHTML = '这是一段文本';
         div.appendChild(p);
 
         //方式三
-       /* var p = '<p>这是一段文本</p>';
-        div.innerHTML += p;*/
+        /* var p = '<p>这是一段文本</p>';
+         div.innerHTML += p;*/
     }
+
     //添加图片
-    function addImg(){
+    function addImg() {
         //方式一
         /*var img = document.createElement('img');
         img.src = 'Img/heibao.png';
@@ -65,21 +68,22 @@
         div.appendChild(img);*/
 
         //方式二
-       /* var img = document.createElement('img');
-        img.setAttribute('src','Img/heibao.png');
-        img.height=100;
-        div.appendChild(img);*/
+        /* var img = document.createElement('img');
+         img.setAttribute('src','Img/heibao.png');
+         img.height=100;
+         div.appendChild(img);*/
 
         //方式三
         var img = "<img src = 'Img/heibao.png' alt=''  >";
         div.innerHTML += img;
 
     }
+
     //添加文本框
-    function addText(){
+    function addText() {
         // var input = document.createElement('input');
 
-       //方式一
+        //方式一
         /*input.type = 'text';
         input.value = '添加文本框操作';*/
 
@@ -95,5 +99,22 @@
 
     }
 
+    //添加下拉选项
+    function addOption() {
+        // var opt = document.createElement('option');
+        //方式一
+      /*  opt.value = '2';
+        opt.text = '晴天';
+        music.appendChild(opt);*/
+
+        //方式二
+        /*opt.value = '2';
+        opt.text = '晴天';
+        music.options.add(opt);*/
+
+        //方式三
+        var opt = '<option value="2">千里之外</option>';
+        music.innerHTML += opt ;
+    }
 </script>
 </html>
