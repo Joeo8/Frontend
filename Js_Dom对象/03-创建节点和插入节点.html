@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>创建节点和插入节点</title>
+</head>
+<body>
+<button type="button" onclick="addPara()">添加段落</button>
+<button type="button" onclick="addImg()">添加图片</button>
+<button type="button" onclick="addText()">添加文本框</button>
+<button type="button" onclick="addOption()">添加选项</button>
+<select name="music">
+    <option value="-1">你心中的一首歌</option>
+    <option value="0">南山南</option>
+    <option value="1">喜欢你</option>
+</select>
+<hr>
+<div id="container">
+
+</div>
+</body>
+<!--
+    创建节点:
+        createElement() 创建一个新的节点，需要传入节点的标签名称，返回创建的元素对象
+        createTextNode() 创建一个文本节点,可以传入文本内容
+        innerHTML   也能达到创建节点的效果，直接添加到指定位置
+
+    插入节点:
+         write()        将任意的字符串插入到文档中
+         appendChild()  向元素中添加新的子节点，作为最后一个节点
+         insertBefore() 向指定的已有的节点之前插入新的节点
+            newItem: 要插入的节点
+            exsitingItem:参考节点(需要参考父类节点)
+-->
+<script type="text/javascript">
+    //获取容器
+    var div = document.getElementById('container');
+    //添加段落
+    function addPara() {
+        //添加段落
+        var p = document.createElement('p');
+
+        //方式一
+       /* //创建文本节点
+        var text = document.createTextNode('这是一段文本');
+        //将文本节点追加到元素节点中
+        p.appendChild(text);
+        //将p标签放置到div中
+        div.appendChild(p);*/
+
+        // 方式二
+        p.innerHTML = '这是一段文本';
+        div.appendChild(p);
+
+        //方式三
+       /* var p = '<p>这是一段文本</p>';
+        div.innerHTML += p;*/
+    }
+    //添加图片
+    function addImg(){
+        //方式一
+        /*var img = document.createElement('img');
+        img.src = 'Img/heibao.png';
+        img.height = 100 ;
+        div.appendChild(img);*/
+
+        //方式二
+       /* var img = document.createElement('img');
+        img.setAttribute('src','Img/heibao.png');
+        img.height=100;
+        div.appendChild(img);*/
+
+        //方式三
+        var img = "<img src = 'Img/heibao.png' alt=''  >";
+        div.innerHTML += img;
+
+    }
+    //添加文本框
+    function addText(){
+        // var input = document.createElement('input');
+
+       //方式一
+        /*input.type = 'text';
+        input.value = '添加文本框操作';*/
+
+        //方式二
+        /*input.setAttribute('type','text');
+        input.setAttribute('value','添加文本框');*/
+
+        // div.appendChild(input);
+
+        //方式三
+        var input = '<input type="text" value="添加文本框">';
+        div.innerHTML += input;
+
+    }
+
+</script>
+</html>
