@@ -18,6 +18,11 @@
 <div id="container">
 
 </div>
+<ul>
+    <li id="B">BWM</li>
+    <li>Mercedes</li>
+</ul>
+<hr>
 </body>
 <!--
     创建节点:
@@ -27,8 +32,8 @@
 
     插入节点:
          write()        将任意的字符串插入到文档中
-         appendChild()  向元素中添加新的子节点，作为最后一个节点
-         insertBefore() 向指定的已有的节点之前插入新的节点
+         appendChild()  向元素中添加新的子节点，作为最后一个节点       (子元素)
+         insertBefore() 向指定的已有的节点之前插入新的节点            (同级)
             newItem: 要插入的节点
             exsitingItem:参考节点(需要参考父类节点)
 -->
@@ -103,9 +108,9 @@
     function addOption() {
         // var opt = document.createElement('option');
         //方式一
-      /*  opt.value = '2';
-        opt.text = '晴天';
-        music.appendChild(opt);*/
+        /*  opt.value = '2';
+          opt.text = '晴天';
+          music.appendChild(opt);*/
 
         //方式二
         /*opt.value = '2';
@@ -114,7 +119,20 @@
 
         //方式三
         var opt = '<option value="2">千里之外</option>';
-        music.innerHTML += opt ;
+        music.innerHTML += opt;
     }
+
+    //插入节点
+    document.write('<h2>Hello</h2>');
+    document.write('<h2>Joeo8!</h2>');
+    document.write('<hr>');
+
+    var li = document.createElement('li');
+    var text = document.createTextNode('Audi');
+    li.appendChild(text);
+    var B = document.getElementById('B');
+    B.parentElement.insertBefore(li, B);
+
+
 </script>
 </html>
