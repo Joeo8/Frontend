@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>删除节点</title>
+    <style>
+        a{
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <span id="programmer">工程狮</span>
+    <a href="javascript:void(0)" onclick="delNode()">删除</a>
+</body>
+<!--
+    删除节点
+        removeChild()从元素中删除子节点
+-->
+<script type="text/javascript">
+    function delNode(){
+        //得到待删除的元素
+        var span = document.getElementById('programmer');
+        //得到待删除元素的父类元素
+        var parent = span.parentElement;
+        //删除节点
+        parent.removeChild(span);
+    }
+</script>
+</html>
