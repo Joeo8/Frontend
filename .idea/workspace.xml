@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9cb1bff7-5352-4027-ac60-899ec762962a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Js/Js_Bom关闭窗口.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Js/Js_Bom时间函数.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Js/Js_Bom打开窗口.html" beforeDir="false" afterPath="$PROJECT_DIR$/Js/Js_Bom打开窗口.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +61,7 @@
       <recent name="C:\Users\Joeo8\Desktop\Frontend\Js\ECMAJS" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.Js_Bom打开窗口.html">
+  <component name="RunManager" selected="JavaScript Debug.Js_Bom时间函数.html">
     <configuration name="JS对象的序列化及逆序列化.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Frontend/Js/ECMAJS/JS对象的序列化及逆序列化.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -72,7 +71,19 @@
     <configuration name="Js_Bom打开窗口.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Frontend/Js/Js_Bom打开窗口.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
+    <configuration name="Js_Bom时间函数.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Frontend/Js/Js_Bom时间函数.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="Js常用事件.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Frontend/Js/Js常用事件.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="Js运算符.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Frontend/Js/Js运算符.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="Js数组.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Frontend/Js/Js数组.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="Js数据类型.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Frontend/Js/Js数据类型.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="Js事件处理程序.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Frontend/Js/Js事件处理程序.html" useBuiltInWebServerPort="true">
@@ -99,28 +110,19 @@
     <configuration name="Js函数作用域.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Frontend/Js/ECMAJS/Js函数作用域.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="Js运算符.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Frontend/Js/Js运算符.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="Js数组.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Frontend/Js/Js数组.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="Js数据类型.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Frontend/Js/Js数据类型.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="JavaScript Debug.JS对象的序列化及逆序列化.html" />
       <item itemvalue="JavaScript Debug.Js常用事件.html" />
-      <item itemvalue="JavaScript Debug.Js事件处理程序.html" />
       <item itemvalue="JavaScript Debug.Js_BOM系统对话框.html" />
       <item itemvalue="JavaScript Debug.Js_Bom打开窗口.html" />
+      <item itemvalue="JavaScript Debug.Js_Bom时间函数.html" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.Js_Bom时间函数.html" />
         <item itemvalue="JavaScript Debug.Js_Bom打开窗口.html" />
         <item itemvalue="JavaScript Debug.Js_BOM系统对话框.html" />
         <item itemvalue="JavaScript Debug.Js常用事件.html" />
-        <item itemvalue="JavaScript Debug.Js事件处理程序.html" />
         <item itemvalue="JavaScript Debug.JS对象的序列化及逆序列化.html" />
       </list>
     </recent_temporary>
@@ -141,7 +143,8 @@
       <workItem from="1611674102744" duration="2777000" />
       <workItem from="1611732929587" duration="15893000" />
       <workItem from="1611832639368" duration="6557000" />
-      <workItem from="1611921031853" duration="8201000" />
+      <workItem from="1611921031853" duration="8346000" />
+      <workItem from="1611988886199" duration="2490000" />
     </task>
     <task id="LOCAL-00001" summary="ECMAJavaScript">
       <created>1611496578786</created>
@@ -437,7 +440,21 @@
       <option name="project" value="LOCAL" />
       <updated>1611932787462</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="Bom打开窗口">
+      <created>1611933111867</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1611933111867</updated>
+    </task>
+    <task id="LOCAL-00044" summary="Bom关闭窗口">
+      <created>1611933145051</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1611933145051</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -468,7 +485,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="ECMAJavaScript" />
     <MESSAGE value="README" />
     <MESSAGE value="Js变量" />
     <MESSAGE value="Js语句及注释" />
@@ -493,6 +509,7 @@
     <MESSAGE value="Js常用事件" />
     <MESSAGE value="Bom系统对话框" />
     <MESSAGE value="Bom打开窗口" />
-    <option name="LAST_COMMIT_MESSAGE" value="Bom打开窗口" />
+    <MESSAGE value="Bom关闭窗口" />
+    <option name="LAST_COMMIT_MESSAGE" value="Bom关闭窗口" />
   </component>
 </project>

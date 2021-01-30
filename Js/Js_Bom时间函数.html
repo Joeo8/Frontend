@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>时间函数</title>
+</head>
+<body>
+<button type="button" onclick="toBaidu()">3秒之后跳转到百度</button>
+<hr>
+<button type="button" onclick="init()">开始</button>
+<button type="button" onclick="stop()">暂停</button>
+<h2 id="time"></h2>
+<hr>
+<button type="button" onclick="hello()">定时执行</button>
+</body>
+<!--
+    时间函数:
+        setTimeout():
+            在指定的毫秒数后调用函数或计算表达式，返回一个唯一的标识。
+            也可以通过返回的标识clearTimeout(id):来清除指定函数的执行
+            var id = setTimeout(function,times)
+                参数1 : 执行的函数
+                参数2 : 时间(单位:毫秒)
+
+        setInteval():
+            按照指定的周期(以毫秒计算)调用函数或计算表达式，返回一个唯一的标识(可用于结束)。
+            该方法会不停地调用函数，直到clearInteval()被调用或窗口被关闭
+            var id = setInteval(function,times)
+                参数1 : 执行的函数
+                参数2 : 时间(单位:毫秒)
+
+-->
+<script type="text/javascript">
+    //3秒后跳转百度
+    function toBaidu() {
+        setTimeout(function () {
+            window.open('http://www.baidu.com/');
+        }, 3000);
+    }
+
+    //获取当前时间，实现自动按秒刷新
+    var id;
+    console.log(new Date().toLocaleTimeString());
+
+    function init() {
+        var time = new Date().toLocaleTimeString();
+        //将时间赋值给h2标签
+        document.getElementById('time').innerHTML = time;
+        //每一秒钟调用一次
+        id = setTimeout(init, 1000);
+    }
+
+    function stop(){
+        clearTimeout(id);
+    }
+    //定时执行
+    function hello(){
+        setInterval(function (){
+            console.log('定时执行--》hello');
+        },1000);
+    }
+</script>
+</html>
