@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>location对象</title>
+</head>
+<body>
+<button type="button" onclick="test()">跳转</button>
+<button type="button" onclick="text()">Replace</button>
+</body>
+<!--
+    location对象:
+        属性
+            href : 设置或返回完整的URL
+        方法
+            reload()  重新加载当前文档
+            replace() 用新的文档替换当前的文档 (不能后退返回)
+-->
+<script type="text/javascript">
+    //打印输出当前网页地址
+    var url = window.location.href;
+    console.log(url);
+    //设置url
+    function test() {
+        window.location.href = 'http://www.baidu.com';
+    }
+    function text(){  //不能返回
+        window.location.replace("http://www.baidu.com");
+    }
+</script>
+</html>
