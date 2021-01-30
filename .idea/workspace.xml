@@ -5,6 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9cb1bff7-5352-4027-ac60-899ec762962a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Js_Dom对象/02-获取节点.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Js_Dom对象/03-创建节点和插入节点.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Js_Dom对象/Img/heibao.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,7 +48,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="full.screen.before.presentation.mode" value="false" />
     <property name="js.last.introduce.type" value="VAR" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Js/ECMAJS" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Js_Dom对象/Img" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -56,24 +59,28 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Joeo8\Desktop\Frontend\Js_Dom对象\Img" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Joeo8\Desktop\Frontend\Js_Bom对象" />
       <recent name="C:\Users\Joeo8\Desktop\Frontend\Js\ECMAJS" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.Js_Bom_loaction.html">
-    <configuration name="Js_BOM系统对话框.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Frontend/Js/Js_BOM系统对话框.html" useBuiltInWebServerPort="true">
+  <component name="RunManager" selected="JavaScript Debug.03-创建节点和插入节点.html">
+    <configuration name="03-创建节点和插入节点.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Frontend/Js_Dom对象/03-创建节点和插入节点.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="Js_Bom打开窗口.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Frontend/Js/Js_Bom打开窗口.html" useBuiltInWebServerPort="true">
+    <configuration name="Js_BOM系统对话框.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Frontend/Js_Bom对象/Js_BOM系统对话框.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="Js_Bom时间函数.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Frontend/Js/Js_Bom时间函数.html" useBuiltInWebServerPort="true">
+    <configuration name="Js_Bom打开窗口.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Frontend/Js_Bom对象/Js_Bom打开窗口.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="Js_Bom_loaction.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Frontend/Js/Js_Bom_loaction.html" useBuiltInWebServerPort="true">
+    <configuration name="Js_Bom时间函数.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Frontend/Js_Bom对象/Js_Bom时间函数.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="Js常用事件.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Frontend/Js/Js常用事件.html" useBuiltInWebServerPort="true">
+    <configuration name="Js_Bom_loaction.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Frontend/Js_Bom对象/Js_Bom_loaction.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="Js运算符.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Frontend/Js/Js运算符.html" useBuiltInWebServerPort="true">
@@ -110,19 +117,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="JavaScript Debug.Js常用事件.html" />
       <item itemvalue="JavaScript Debug.Js_BOM系统对话框.html" />
       <item itemvalue="JavaScript Debug.Js_Bom打开窗口.html" />
       <item itemvalue="JavaScript Debug.Js_Bom时间函数.html" />
       <item itemvalue="JavaScript Debug.Js_Bom_loaction.html" />
+      <item itemvalue="JavaScript Debug.03-创建节点和插入节点.html" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.03-创建节点和插入节点.html" />
         <item itemvalue="JavaScript Debug.Js_Bom_loaction.html" />
         <item itemvalue="JavaScript Debug.Js_Bom时间函数.html" />
         <item itemvalue="JavaScript Debug.Js_Bom打开窗口.html" />
         <item itemvalue="JavaScript Debug.Js_BOM系统对话框.html" />
-        <item itemvalue="JavaScript Debug.Js常用事件.html" />
       </list>
     </recent_temporary>
   </component>
@@ -143,7 +150,7 @@
       <workItem from="1611732929587" duration="15893000" />
       <workItem from="1611832639368" duration="6557000" />
       <workItem from="1611921031853" duration="8346000" />
-      <workItem from="1611988886199" duration="4037000" />
+      <workItem from="1611988886199" duration="9928000" />
     </task>
     <task id="LOCAL-00001" summary="ECMAJavaScript">
       <created>1611496578786</created>
@@ -474,7 +481,21 @@
       <option name="project" value="LOCAL" />
       <updated>1611995923203</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="Bom对象">
+      <created>1611996332275</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1611996332275</updated>
+    </task>
+    <task id="LOCAL-00049" summary="Dom节点">
+      <created>1611996594267</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1611996594267</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -505,8 +526,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Js数据类型" />
-    <MESSAGE value="Js类型转换" />
     <MESSAGE value="Js运算符" />
     <MESSAGE value="Js数组" />
     <MESSAGE value="Js数组中的方法" />
@@ -530,6 +549,8 @@
     <MESSAGE value="Bom对象时间函数" />
     <MESSAGE value="history对象" />
     <MESSAGE value="location对象" />
-    <option name="LAST_COMMIT_MESSAGE" value="location对象" />
+    <MESSAGE value="Bom对象" />
+    <MESSAGE value="Dom节点" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dom节点" />
   </component>
 </project>
