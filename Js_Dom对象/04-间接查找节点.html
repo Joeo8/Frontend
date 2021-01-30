@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>间接查找节点</title>
+</head>
+<body>
+<ul>
+    <li id="bmw">BMW</li>
+    <li>Mercedes</li>
+</ul>
+</body>
+<!--
+    间接查找节点
+        childNodes      返回元素的一个子节点的数组
+        children        返回元素的所有的子元素的数组
+        firstChild      返回元素的第一个子节点
+        firstElementChild
+        lastChild       返回元素的最后一个子节点
+        lastElementChild
+        nextSibling     返回元素的下一个兄弟节点
+        nextElementSibling
+        parentNode      返回元素的父节点
+        parentElement
+        previousSibling 返回元素的上一个兄弟节点
+        previousElementSibling
+-->
+<script type="text/javascript">
+    var ul = document.getElementsByTagName('ul')[0];
+    //childNodes
+    console.log(ul.childNodes);
+    //children
+    console.log(ul.children);
+    //firstChild
+    console.log(ul.firstChild);
+    console.log(ul.firstElementChild)
+    //lastChild
+    console.log(ul.lastChild);
+    console.log(ul.lastElementChild)
+    //nextSibling
+    console.log(ul.nextSibling);
+    //parentNode
+    console.log(ul.parentNode);
+    //previousSibling
+    console.log(ul.previousSibling);
+</script>
+</html>
