@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>练习</title>
+</head>
+<body>
+<button onclick="fn()">开始</button>
+<h2 id="time"></h2>
+</body>
+<!--
+    时间函数练习
+-->
+<script type="text/javascript">
+    function fn() {
+        var time = new Date().toLocaleTimeString();
+        document.getElementById('time').innerHTML = time;
+        setTimeout(fn,1000);
+    }
+</script>
+</html>

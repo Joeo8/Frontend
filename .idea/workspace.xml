@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9cb1bff7-5352-4027-ac60-899ec762962a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Js_Dom对象/02-获取节点.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Js_Dom对象/03-创建节点和插入节点.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Js_Dom对象/Img/heibao.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Js/练习.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Js_Dom对象/03-创建节点和插入节点.html" beforeDir="false" afterPath="$PROJECT_DIR$/Js_Dom对象/03-创建节点和插入节点.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,11 +66,8 @@
       <recent name="C:\Users\Joeo8\Desktop\Frontend\Js\ECMAJS" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.03-创建节点和插入节点.html">
+  <component name="RunManager" selected="JavaScript Debug.练习.html">
     <configuration name="03-创建节点和插入节点.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Frontend/Js_Dom对象/03-创建节点和插入节点.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="Js_BOM系统对话框.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Frontend/Js_Bom对象/Js_BOM系统对话框.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="Js_Bom打开窗口.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Frontend/Js_Bom对象/Js_Bom打开窗口.html" useBuiltInWebServerPort="true">
@@ -116,20 +112,23 @@
     <configuration name="Js函数作用域.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Frontend/Js/ECMAJS/Js函数作用域.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
+    <configuration name="练习.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Frontend/Js/练习.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="JavaScript Debug.Js_BOM系统对话框.html" />
       <item itemvalue="JavaScript Debug.Js_Bom打开窗口.html" />
       <item itemvalue="JavaScript Debug.Js_Bom时间函数.html" />
       <item itemvalue="JavaScript Debug.Js_Bom_loaction.html" />
       <item itemvalue="JavaScript Debug.03-创建节点和插入节点.html" />
+      <item itemvalue="JavaScript Debug.练习.html" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.练习.html" />
         <item itemvalue="JavaScript Debug.03-创建节点和插入节点.html" />
         <item itemvalue="JavaScript Debug.Js_Bom_loaction.html" />
         <item itemvalue="JavaScript Debug.Js_Bom时间函数.html" />
         <item itemvalue="JavaScript Debug.Js_Bom打开窗口.html" />
-        <item itemvalue="JavaScript Debug.Js_BOM系统对话框.html" />
       </list>
     </recent_temporary>
   </component>
@@ -150,28 +149,7 @@
       <workItem from="1611732929587" duration="15893000" />
       <workItem from="1611832639368" duration="6557000" />
       <workItem from="1611921031853" duration="8346000" />
-      <workItem from="1611988886199" duration="9928000" />
-    </task>
-    <task id="LOCAL-00001" summary="ECMAJavaScript">
-      <created>1611496578786</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1611496578786</updated>
-    </task>
-    <task id="LOCAL-00002" summary="ECMAJavaScript">
-      <created>1611496769911</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1611496769911</updated>
-    </task>
-    <task id="LOCAL-00003" summary="ECMAJavaScript">
-      <created>1611496981446</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1611496981446</updated>
+      <workItem from="1611988886199" duration="12731000" />
     </task>
     <task id="LOCAL-00004" summary="README">
       <created>1611497567187</created>
@@ -495,7 +473,28 @@
       <option name="project" value="LOCAL" />
       <updated>1611996594267</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="Dom获取节点">
+      <created>1612013056019</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1612013056020</updated>
+    </task>
+    <task id="LOCAL-00051" summary="Dom节点操作">
+      <created>1612013115175</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1612013115175</updated>
+    </task>
+    <task id="LOCAL-00052" summary="Img">
+      <created>1612013170140</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1612013170140</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -526,9 +525,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Js运算符" />
-    <MESSAGE value="Js数组" />
-    <MESSAGE value="Js数组中的方法" />
     <MESSAGE value="Js函数的定义" />
     <MESSAGE value="Js函数参数及调用" />
     <MESSAGE value="Js对象的序列化和逆序列化" />
@@ -551,6 +547,9 @@
     <MESSAGE value="location对象" />
     <MESSAGE value="Bom对象" />
     <MESSAGE value="Dom节点" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dom节点" />
+    <MESSAGE value="Dom获取节点" />
+    <MESSAGE value="Dom节点操作" />
+    <MESSAGE value="Img" />
+    <option name="LAST_COMMIT_MESSAGE" value="Img" />
   </component>
 </project>
