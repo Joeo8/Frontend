@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>获取多选框</title>
+</head>
+<body>
+<input type="checkbox" name="ckbox" value="sing">唱歌
+<input type="checkbox" name="ckbox" value="dance">跳舞
+<input type="checkbox" name="ckbox" value="game">游戏
+<input type="checkbox" name="ckbox" value="movie">电影 <br>
+<button type="button" onclick="getCkbox()">获取</button>
+</body>
+<!--
+
+        1)获取多选按钮组
+           document.getElementsByName('ckbox')
+        2)遍历每个按钮，并查看选中状态(checked属性)
+            for (var i = 0; i < box.length; i++) {
+            var checked = box[i].checked;
+            }
+-->
+<script type="text/javascript">
+    function getCkbox() {
+        //获取多选组
+        var box = document.getElementsByName('ckbox');
+        var str = '';
+        for (var i = 0; i < box.length; i++) {
+            var checked = box[i].checked;
+            if (checked) {
+                str += box[i].value + ',';
+            }
+        }
+        str = str.substring(0, str.length - 1);
+        console.log(str);
+    }
+</script>
+</html>
