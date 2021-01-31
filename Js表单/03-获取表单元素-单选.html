@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>获取表单中单选按钮</title>
+</head>
+<body>
+<input type="radio" name="rad" value="1">1
+<input type="radio" name="rad" value="2">2
+<button type="button" onclick="getRad()">获取单选按钮</button>
+</body>
+<!--
+        1)获取单选按钮组
+            document.getElementsByName('rad')
+        2)遍历每个单选按钮，并查看选中状态(checked属性)
+            for (var i = 0;i<rads.length;i++) {
+            console.log(rads[i].checked);
+            }
+-->
+<script type="text/javascript">
+    function getRad() {
+        //获取按钮组
+        var rads = document.getElementsByName('rad');
+        //遍历每个按钮，查看按钮的选中状态
+        for (var i = 0;i<rads.length;i++) {
+            console.log(rads[i].checked);
+            //获取值
+            if (rads[i].checked) {
+                console.log(rads[i].value);
+            }
+        }
+    }
+</script>
+</html>
