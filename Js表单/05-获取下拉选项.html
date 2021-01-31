@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>获取下拉选项</title>
+</head>
+<body>
+
+来自:
+<select name="from" id="from">
+    <option value="-1">请选择</option>
+    <option value="beijing" >北京</option>
+    <option value="shanghai">上海</option>
+    <option value="guangzhou">广州</option>
+    <option >深圳</option>
+</select>
+<button type="button" id="sub">获取</button>
+</body>
+<!--
+    获取下拉选项
+        1.获取下拉框(id属性、name属性、class属性、元素)
+        2.获取下拉框的所有下拉选项
+            下拉框对象.option
+        3.获取下拉框被选中项的索引
+            下拉框对象.selectedindex
+        4.获取被选中项的值
+            注:当通过option获取选中项的value属性值时，有value则返回value，没有则返回文本内容
+        5.获取被选中项的文本内容
+-->
+<script type="text/javascript">
+    document.getElementById('sub').onclick = function (){
+        //获取下拉框
+        var from = document.getElementById('from');
+        console.log(from);
+        //获取下拉框的所有下拉选项
+        var options = from.options;
+        console.log(options);
+        //获取被选中项的索引
+        var index = from.selectedIndex;
+        console.log(index);
+        //获取被选中项的值
+        var val = options[index].value;
+        console.log(val);
+        //获取被选中项的文本内容
+        var text = options[index].text;
+        console.log(text);
+        //获取被选中项的值
+        var na = from.value;
+        console.log(na);
+
+        //设置下拉选项被选中
+        options[2].selected = true;
+
+    }
+</script>
+</html>
