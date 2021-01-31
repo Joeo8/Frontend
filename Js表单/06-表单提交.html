@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>提交表单</title>
+</head>
+<body>
+<form action="http://www.baidu.com" method="get" id="Form">
+    姓名: <input type="text" id="uname"/>
+    <input type="button" value="提交按钮" onclick="submitForm()">
+</form>
+<hr>
+<form action="http://www.baidu.com" method="get" id="Form1">
+    姓名: <input type="text" id="uname1"/>
+    <input type="submit" value="提交按钮" onclick="return submitForm1()">
+</form>
+<hr>
+<form action="http://www.baidu.com" method="get" id="Form2" onsubmit="return submitForm2()">
+    姓名: <input type="text" id="uname2"/>
+    <input type="submit" value="提交按钮" >
+</form>
+</body>
+<!--
+    提交表单
+        1)使用普通button按钮+onclick事件+事件中编写的代码
+            获取表单.submit()
+        2)使用submit按钮+onclick='return 函数()'+函数中编写的代码
+            最后必须返回: return true | false
+        3)使用submit按钮/图片提交按钮 + 表单onsubmit = 'return 函数()' + 函数中编写的代码
+             最后必须返回: return true | false
+
+    trim()表示去除字符串前后的空格(不去除字符串中间的空格)
+-->
+<script type="text/javascript">
+    /* 1)使用普通button按钮+onclick事件+事件中编写的代码
+        获取表单.submit()*/
+    function submitForm() {
+        var uname = document.getElementById('uname').value;
+        if (uname == null || uname.trim() == '') {
+            return;
+        }
+        document.getElementById('Form').submit();
+    }
+
+    /*2)使用submit按钮+onclick='return 函数()'+函数中编写的代码
+            最后必须返回: return true | false*/
+    function submitForm1() {
+        var uname = document.getElementById('uname1').value;
+        if (uname == null || uname.trim() == '') {
+            return false;
+        }
+        return true;
+    }
+
+    /*3)使用submit按钮/图片提交按钮 + 表单onsubmit = 'return 函数()' + 函数中编写的代码
+             最后必须返回: return true | false*/
+    function submitForm2(){
+        var uname = document.getElementById('uname2').value;
+        if (uname == null || uname.trim() == '') {
+            return false;
+        }
+        return true;
+    }
+</script>
+</html>
