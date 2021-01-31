@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>获取表单元素</title>
+</head>
+<body>
+<form id="myForm"  method="get" action="">
+    用户名: <input type="text" name="name" id="name" value="xm"/> <br>
+    密码:<input type="password" name="pwd" id="pwd" value="123456"/> <br>
+    <input type="hidden" id="uno" name="uno" value='隐藏域'/>
+    个人说明: <textarea name="into"  ></textarea><br>
+    <button type="button" onclick="getTxt()">获取元素内容</button>
+</form>
+</body>
+<!--
+    获取表单元素:
+        1.通过id获取: document.getElementById('name')
+        2.通过form.名称获取 myForm.pwd.value
+        3.通过name获取
+        4.通过TagName获取
+-->
+<script type="text/javascript">
+    function getTxt(){
+
+        var name = document.getElementById('name').value;
+        console.log(name);
+
+        var myForm = document.getElementById("myForm");
+        var pwd = myForm.pwd.value;
+        console.log(pwd);
+
+        var uno = document.getElementsByName('uno')[0].value;
+        console.log(uno);
+
+        var into = document.getElementsByTagName('textarea')[0].value;
+        console.log(into);
+
+
+    }
+</script>
+</html>
