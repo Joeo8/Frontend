@@ -6,11 +6,15 @@ Frontend Learning Collection
 >Include:
 >+ Html
 >
+>  ![](Media/html.png)
+>
 >+ CSS
+>
+>  ![](Media/css.png)
 >
 >+ JavaScript
 >
->  ![](Media/js.png)
+> ![](Media/js.png)
 >
 >+ Jquery
 >
