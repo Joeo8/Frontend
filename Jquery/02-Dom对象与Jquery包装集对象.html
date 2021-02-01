@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dom对象与Jquery包装集对象</title>
+</head>
+<body>
+<div id="mydiv">这是一段文本</div>
+</body>
+<!--
+    Dom对象:
+        通过Js方式获取的元素对象(document)
+    Jquery包装集对象:
+        通过Jquery方法获取元素对象，返回的是Jquery包装集
+-->
+<script src="../Resource/jquery/jquery-3.5.1/jquery-3.5.1.js" type="text/javascript" charset="UTF-8"></script>
+<script type="text/javascript">
+        //Dom对象
+        var div = document.getElementById('mydiv');
+        console.log(div);
+        var div1 = document.getElementsByTagName('div');
+        console.log(div1);
+
+        //Jquery对象
+        var JqueryDiv = $("#mydiv");
+        console.log(JqueryDiv);
+</script>
+</html>
