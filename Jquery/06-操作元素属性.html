@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>操作元素属性</title>
+</head>
+<body>
+<input type="checkbox" name="ch" id="aa" abc="aabbcc">aa
+<input type="checkbox" name="ch" id="bb">bb
+
+</body>
+<!--
+    操作元素的属性
+        属性的分类:
+            固有属性:元素本身就有的属性(id、name、class、style)
+            返回值类型是boolean的属性:checked、selected、disabled
+            自定义属性:用户自定义的属性
+
+        属性的获取:
+            attr('属性名')
+            prop('属性名')
+            两者区别: 固有属性中,两者内容相同;
+                     boolean类型值属性中,attr返回具体的值或undefined,prop返回true或false;
+                     自定义属性中,attr返回具体值,prop返回undefined;
+        属性的设置
+            $('#id').attr('属性名','属性值');
+                注: prop不可操作自定义属性
+        属性的移除
+            removeAttr('属性值')
+
+        总结: 针对boolean类型的属性(checked、selected、disabled),使用prop.其他均使用attr最佳
+-->
+<script src="../Resource/jquery/jquery-3.5.1/jquery-3.5.1.js" type="text/javascript" charset="UTF-8"></script>
+<script type="text/javascript">
+    //获取属性
+    //1.固有属性
+    var nameAttr = $('#aa').attr('name');
+    console.log(nameAttr);      //ch
+    var nameProp = $('#aa').prop('name');
+    console.log(nameProp);      //ch
+
+    //2.boolean值属性
+    //元素设置了属性的情况
+    var checkedAttr = $('#aa').attr('checked');
+    console.log(checkedAttr);      //checked
+    var checkedProp = $('#aa').prop('checked');
+    console.log(checkedProp);      //true
+    //元素未设置属性的情况
+    var checkAttr = $('#bb').attr('checked');
+    console.log(checkAttr);      //undefined
+    var checkProp = $('#bb').prop('checked');
+    console.log(checkProp);      //false
+
+    //3.自定义属性
+    //设置了自定属性
+    var abcAttr = $('#aa').attr('abc');
+    console.log(abcAttr);      //aabbcc
+    var abcProp = $('#aa').prop('abc');
+    console.log(abcProp);      //undefined
+    //未自定义属性
+    var abcAttr = $('#bb').attr('abc');
+    console.log(abcAttr);      //undefined
+    var abcProp = $('#bb').prop('abc');
+    console.log(abcProp);      //undefined
+
+
+    //============================设置属性=============================
+    //固有属性
+    $('#aa').attr('value', '1');
+    $('#bb').prop('value', '2');
+    //boolean类型属性
+    $('#aa').attr('checked', 'checked');
+    $('#bb').prop('checked', 'true');
+    //自定义属型
+    $('#aa').attr('uname', 'admin');
+    $('#bb').prop('pwd', '123');
+
+    //============================设置移除=============================
+    $('#aa').removeAttr('checked');
+</script>
+</html>
