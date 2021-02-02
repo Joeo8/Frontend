@@ -5,6 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9cb1bff7-5352-4027-ac60-899ec762962a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Jquery-Ajax/01-$.ajax.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Jquery-Ajax/02-$.get()和$.post().html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Jquery-Ajax/03-$.getJSON.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Jquery-Ajax/data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Jquery-Ajax/data.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -16,6 +21,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="tsconfig.json" />
         <option value="HTML File" />
       </list>
     </option>
@@ -65,23 +71,20 @@
       <recent name="C:\Users\Joeo8\Desktop\Frontend\Js\ECMAJS" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.02-Dom对象与Jquery包装集对象.html (1)">
-    <configuration name="02-Dom对象与Jquery包装集对象.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jquery-3.5.1.js/Jquery/02-Dom对象与Jquery包装集对象.html" useBuiltInWebServerPort="true">
+  <component name="RunManager" selected="JavaScript Debug.03-$.getJSON.html">
+    <configuration name="01-$.ajax.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jquery-3.5.1.js/Jquery-Ajax/01-$.ajax.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="02-Dom对象与Jquery包装集对象.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Frontend/Jquery/02-Dom对象与Jquery包装集对象.html" useBuiltInWebServerPort="true">
+    <configuration name="02-$.get()和$.post().html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jquery-3.5.1.js/Jquery-Ajax/02-$.get()和$.post().html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="05-获取下拉选项.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Frontend/Js表单/05-获取下拉选项.html" useBuiltInWebServerPort="true">
+    <configuration name="03-$.getJSON.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jquery-3.5.1.js/Jquery-Ajax/03-$.getJSON.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="06-表单提交.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Frontend/Js表单/06-表单提交.html" useBuiltInWebServerPort="true">
+    <configuration name="12-ready加载事件.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jquery-3.5.1.js/Jquery/12-ready加载事件.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="07-表单验证.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Frontend/Js表单/07-表单验证.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="Js函数作用域.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Frontend/Js/ECMAJS/Js函数作用域.html" useBuiltInWebServerPort="true">
+    <configuration name="13-绑定事件.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jquery-3.5.1.js/Jquery/13-绑定事件.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="Js数组.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Frontend/Js/Js数组.html" useBuiltInWebServerPort="true">
@@ -106,19 +109,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="JavaScript Debug.05-获取下拉选项.html" />
-      <item itemvalue="JavaScript Debug.06-表单提交.html" />
-      <item itemvalue="JavaScript Debug.07-表单验证.html" />
-      <item itemvalue="JavaScript Debug.02-Dom对象与Jquery包装集对象.html" />
-      <item itemvalue="JavaScript Debug.02-Dom对象与Jquery包装集对象.html (1)" />
+      <item itemvalue="JavaScript Debug.12-ready加载事件.html" />
+      <item itemvalue="JavaScript Debug.13-绑定事件.html" />
+      <item itemvalue="JavaScript Debug.01-$.ajax.html" />
+      <item itemvalue="JavaScript Debug.02-$.get()和$.post().html" />
+      <item itemvalue="JavaScript Debug.03-$.getJSON.html" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.02-Dom对象与Jquery包装集对象.html (1)" />
-        <item itemvalue="JavaScript Debug.02-Dom对象与Jquery包装集对象.html" />
-        <item itemvalue="JavaScript Debug.07-表单验证.html" />
-        <item itemvalue="JavaScript Debug.06-表单提交.html" />
-        <item itemvalue="JavaScript Debug.05-获取下拉选项.html" />
+        <item itemvalue="JavaScript Debug.03-$.getJSON.html" />
+        <item itemvalue="JavaScript Debug.02-$.get()和$.post().html" />
+        <item itemvalue="JavaScript Debug.01-$.ajax.html" />
+        <item itemvalue="JavaScript Debug.13-绑定事件.html" />
+        <item itemvalue="JavaScript Debug.12-ready加载事件.html" />
       </list>
     </recent_temporary>
   </component>
@@ -142,91 +145,8 @@
       <workItem from="1611988886199" duration="16950000" />
       <workItem from="1612074703951" duration="17102000" />
       <workItem from="1612185722802" duration="1813000" />
-      <workItem from="1612220495808" duration="1405000" />
-    </task>
-    <task id="LOCAL-00029" summary="Js函数作用域">
-      <created>1611739654083</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1611739654083</updated>
-    </task>
-    <task id="LOCAL-00030" summary="Js函数作用域">
-      <created>1611742042113</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1611742042113</updated>
-    </task>
-    <task id="LOCAL-00031" summary="Js内置对象">
-      <created>1611754205136</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1611754205136</updated>
-    </task>
-    <task id="LOCAL-00032" summary="Js对象的创建">
-      <created>1611756194677</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1611756194677</updated>
-    </task>
-    <task id="LOCAL-00033" summary="Js对象的序列化与反序列化">
-      <created>1611757371625</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1611757371625</updated>
-    </task>
-    <task id="LOCAL-00034" summary="Js事件">
-      <created>1611758890659</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1611758890659</updated>
-    </task>
-    <task id="LOCAL-00035" summary="Js事件">
-      <created>1611835320960</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1611835320961</updated>
-    </task>
-    <task id="LOCAL-00036" summary="Js事件处理程序">
-      <created>1611835409939</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1611835409939</updated>
-    </task>
-    <task id="LOCAL-00037" summary="Js常用事件">
-      <created>1611926209113</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1611926209113</updated>
-    </task>
-    <task id="LOCAL-00038" summary="Js事件处理程序">
-      <created>1611926266595</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1611926266595</updated>
-    </task>
-    <task id="LOCAL-00039" summary="Js事件处理程序">
-      <created>1611926317642</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1611926317642</updated>
-    </task>
-    <task id="LOCAL-00040" summary="Js常用事件">
-      <created>1611927219381</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1611927219381</updated>
+      <workItem from="1612220495808" duration="13519000" />
+      <workItem from="1612253150708" duration="16303000" />
     </task>
     <task id="LOCAL-00041" summary="Bom系统对话框">
       <created>1611932238919</created>
@@ -487,7 +407,91 @@
       <option name="project" value="LOCAL" />
       <updated>1612221745350</updated>
     </task>
-    <option name="localTasksCounter" value="78" />
+    <task id="LOCAL-00078" summary="Dom对象与Jquery包装集对象">
+      <created>1612227231615</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1612227231615</updated>
+    </task>
+    <task id="LOCAL-00079" summary="基础选择器">
+      <created>1612227278262</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1612227278262</updated>
+    </task>
+    <task id="LOCAL-00080" summary="层次选择器">
+      <created>1612227311957</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1612227311957</updated>
+    </task>
+    <task id="LOCAL-00081" summary="表单元素选择器">
+      <created>1612228504264</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1612228504264</updated>
+    </task>
+    <task id="LOCAL-00082" summary="元素属性的操作">
+      <created>1612244934922</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1612244934922</updated>
+    </task>
+    <task id="LOCAL-00083" summary="元素样式的操作">
+      <created>1612246745585</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1612246745585</updated>
+    </task>
+    <task id="LOCAL-00084" summary="操作元素的内容">
+      <created>1612258229554</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1612258229555</updated>
+    </task>
+    <task id="LOCAL-00085" summary="Jquery-创建元素和添加元素">
+      <created>1612258513637</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1612258513637</updated>
+    </task>
+    <task id="LOCAL-00086" summary="Jquery-删除元素">
+      <created>1612265261244</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1612265261244</updated>
+    </task>
+    <task id="LOCAL-00087" summary="Jquery-遍历对象元素">
+      <created>1612265393226</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1612265393226</updated>
+    </task>
+    <task id="LOCAL-00088" summary="Jquery-ready加载事件">
+      <created>1612265742014</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1612265742015</updated>
+    </task>
+    <task id="LOCAL-00089" summary="Jquery-绑定事件">
+      <created>1612265872389</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1612265872389</updated>
+    </task>
+    <option name="localTasksCounter" value="90" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -519,17 +523,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Dom获取节点" />
-    <MESSAGE value="Dom节点操作" />
-    <MESSAGE value="Img" />
-    <MESSAGE value="Js练习同步时间" />
-    <MESSAGE value="创建节点和插入节点" />
-    <MESSAGE value="Dom对象-创建节点和插入节点" />
-    <MESSAGE value="Dom对象-间接查找节点" />
-    <MESSAGE value="Dom对象-删除节点" />
-    <MESSAGE value="Dom对象" />
-    <MESSAGE value="Js获取表单" />
-    <MESSAGE value="Js获取表单元素-input" />
     <MESSAGE value="Js获取表单元素-单选" />
     <MESSAGE value="Js获取表单元素-多选" />
     <MESSAGE value="Js获取表单元素-下拉选项" />
@@ -541,9 +534,20 @@
     <MESSAGE value="Jquery-初识" />
     <MESSAGE value="JQuery" />
     <MESSAGE value="README" />
-    <MESSAGE value="Dom对象与Jquery包装集对象" />
     <MESSAGE value="Jquery" />
     <MESSAGE value="Resource" />
-    <option name="LAST_COMMIT_MESSAGE" value="Resource" />
+    <MESSAGE value="Dom对象与Jquery包装集对象" />
+    <MESSAGE value="基础选择器" />
+    <MESSAGE value="层次选择器" />
+    <MESSAGE value="表单元素选择器" />
+    <MESSAGE value="元素属性的操作" />
+    <MESSAGE value="元素样式的操作" />
+    <MESSAGE value="操作元素的内容" />
+    <MESSAGE value="Jquery-创建元素和添加元素" />
+    <MESSAGE value="Jquery-删除元素" />
+    <MESSAGE value="Jquery-遍历对象元素" />
+    <MESSAGE value="Jquery-ready加载事件" />
+    <MESSAGE value="Jquery-绑定事件" />
+    <option name="LAST_COMMIT_MESSAGE" value="Jquery-绑定事件" />
   </component>
 </project>
