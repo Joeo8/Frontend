@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>层次选择器</title>
+    <style type="text/css">
+        .testColor {
+            background: #0dcaf0;
+        }
+
+        .gray {
+            background: gray;
+        }
+    </style>
+</head>
+<body>
+<div id="parent">层次选择器
+    <div id="child" class="testColor">父选择器
+        <div class="gray">子选择器</div>
+        <img src="https://dss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/logo/logo_white-d0c9fe2af5.png" alt=""
+             width="270" height="129">
+        <img src="https://dss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/logo/logo_white-d0c9fe2af5.png" alt=""
+             width="270" height="129">
+    </div>
+    <div>
+        选择器2
+        <div>选择器2中的div</div>
+    </div>
+</div>
+</body>
+<!--
+    层次选择器:
+        后代选择器:
+            格式: 父元素  指定元素 (空格隔开)
+            示例: $('父元素 指定元素')
+            选择父类元素的所有指定元素(包括第一代、第二代等)
+        子代选择器:
+            格式: 父类元素 > 指定元素 (大于号隔开)
+            示例: $('父元素 > 指定元素')
+            选择父类元素的所有第一代指定元素
+        相邻选择器:
+            格式: 元素 + 指定元素 (加号隔开)
+            示例: $('元素 + 指定元素')
+            选择元素的下一个指定元素(只会查找下一个元素，如果元素不存在，则获取不到)
+        同辈选择器:
+            格式: 元素 ~ 指定元素 (波浪号隔开)
+            示例: $('元素 ~ 指定元素');
+            选择元素下面的所有指定元素
+-->
+<script src="../Resource/jquery/jquery-3.5.1/jquery-3.5.1.js" type="text/javascript" charset="UTF-8"></script>
+<script type="text/javascript">
+    //后代选择器
+    var hd = $('#parent div');
+    console.log(hd);  //4个
+    //子代选择器
+    var zd = $('#parent > div');
+    console.log(zd); //2个
+    //相邻选择器
+    var xl = $('#child + div');
+    console.log(xl);    //1
+    //同辈选择器
+    var img = $('.gray ~ img');
+    console.log(img);   //2
+</script>
+</html>
