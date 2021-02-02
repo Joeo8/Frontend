@@ -16,7 +16,7 @@ Frontend Learning Collection
 >
 >![](Media/js.png)
 >
->+ Jquery
+>+ Jquery-Ajax
 >
 >  ![](Media/Jquery.png)
 >
@@ -24,4 +24,5 @@ Frontend Learning Collection
 >
 >+ LayUI
 >
->+ Ajax
+
+<hr>
