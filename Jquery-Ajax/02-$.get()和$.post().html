@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>$.get()与$.post()</title>
+</head>
+<body>
+
+</body>
+<!--
+    $.get()
+        语法:
+            $.get('请求地址','请求参数',function(形参){
+
+            })
+    $.post()
+        语法:
+            $.post('请求地址','请求参数',function(形参){
+
+            })
+-->
+<script src="../Resource/jquery/jquery-3.5.1/jquery-3.5.1.js"
+    type="text/javascript" charset="UTF-8"></script>
+<script type="text/javascript">
+    $.get('data.json',{},function (data){
+        console.log(data);
+    })
+    $.post('data.json',{},function (data){
+        console.log(data);
+    })
+</script>
+</html>
