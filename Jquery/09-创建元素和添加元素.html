@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>创建元素和添加元素</title>
+    <style type="text/css">
+        div {
+            margin: 10px 0px;
+        }
+
+        span {
+            color: white;
+            padding: 8px;
+        }
+
+        .red {
+            background-color: red;
+        }
+
+        .blue {
+            background-color: blue;
+        }
+
+        .green {
+            background-color: green;
+        }
+        .pink{
+            background-color: pink;
+        }
+        .gray{
+            background-color: gray;
+        }
+
+    </style>
+</head>
+<body>
+<h3>prepend()方法前追加内容</h3>
+<h3>prependTo()方法前追加内容</h3>
+<h3>append()方法后追加内容</h3>
+<h3>appendTo()方法后追加内容</h3>
+<span class="red">专家</span>
+<span class="blue">精英</span>
+<div class="green">
+    <span>小学生</span>
+</div>
+</body>
+<!--
+    创建元素:
+        //创建元素
+        $('内容')
+    添加元素:
+        1.前追加子元素
+            指定元素.prepend(内容)      在指定元素的内部的最前面追加内容，内容可以是字符串、html元素或Jquery对象
+            $(内容).prependTo(指定元素) 在内部的追加到指定元素的最前面，内容可以是字符串、html元素或Jquery对象
+        2.后追加子元素
+            指定元素.append(内容)      在指定元素的内部的最后面追加内容，内容可以是字符串、html元素或Jquery对象
+            $(内容).appendTo(指定元素) 在内部的追加到指定元素的最后面，内容可以是字符串、html元素或Jquery对象
+        3.前追加同级元素
+            before()            在指定元素的前面追加
+        4.后追加同级元素
+            after()             在指定元素的后面追加
+        注:
+            在添加元素时,如果元素本身不存在(新建的元素),此时会将元素追加到指定位置
+            如果元素本身存在(已有元素),会将原来的元素直接剪切设置到指定位置
+-->
+<script src="../Resource/jquery/jquery-3.5.1/jquery-3.5.1.js" type="text/javascript" charset="UTF-8"></script>
+<script type="text/javascript">
+    //创建元素
+    var p = '<p>这是一个p标签</p>'
+    console.log(p);
+    console.log($(p));
+
+    //添加元素
+    //前追加
+    var span1 = '<span>大神</span>';
+    $('.green').prepend(span1);
+
+    var span2 = '<span>菜鸡</span>';
+    $(span2).prependTo($('.green'));
+
+    //后追加
+    var span11 = '<span>CEO</span>';
+    var span22 = '<span>CTO</span>';
+    $('.green').append(span11);
+    $(span22).appendTo($('.green'));
+
+    //将已有元素追加到指定元素中 ==> 相当于剪切
+    $('.red').prependTo($('.green'));
+    $('.blue').appendTo($('.green'));
+
+    //同级追加
+    var sp1 = '<span class="pink">唱歌</span>';
+    var sp2 = '<span class="gray">跳舞</span>';
+
+    $('.red').before(sp1);
+    $('.blue').after(sp2);
+</script>
+</html>
