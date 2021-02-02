@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>遍历元素</title>
+    <style type="text/css">
+        span{
+            color: white;
+            padding: 8px;
+            margin: 5px;
+            float: left;
+        }
+        .green{
+            background-color: green
+        }
+        .blue{
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <h2>遍历元素</h2>
+    <span class="green">Jquery </span>
+    <span class="green">JavaSE</span>
+    <span class="green">Http协议</span>
+    <span class="green">Servlet</span>
+</body>
+<!--
+    each()
+        $(selector).each(function(index,element)):遍历元素
+        参数: function 为遍历时的回调函数
+        index 为遍历元素的序列号,默认从0看开始
+        element 是当前的元素,此时是Dom对象
+-->
+<script src="../Resource/jquery/jquery-3.5.1/jquery-3.5.1.js" type="text/javascript" charset="UTF-8"></script>
+<script type="text/javascript">
+    //获取指定元素并遍历
+    $('.green').each(function (index, element) {
+        /*console.log(index);
+        console.log(element);*/
+        console.log(this);
+        //转换成Jquery对象
+        console.log($(this));
+    });
+</script>
+</html>
