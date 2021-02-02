@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>$.getJSON</title>
+</head>
+<body>
+
+</body>
+<!--
+    $.getJSON()
+        语法:
+            $.getJSON'请求地址','请求参数',function(形参){
+            })
+            注:  getJSON方式要求返回的数据满足json格式(json字符串)
+-->
+<script src="../Resource/jquery/jquery-3.5.1/jquery-3.5.1.js"
+        type="text/javascript" charset="UTF-8"></script>
+<script type="text/javascript">
+    $.getJSON('data.json',{},function (data){
+        console.log(data);
+    })
+</script>
+</html>
