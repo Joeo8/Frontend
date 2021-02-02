@@ -15,14 +15,28 @@
 -->
 <script src="../Resource/jquery/jquery-3.5.1/jquery-3.5.1.js" type="text/javascript" charset="UTF-8"></script>
 <script type="text/javascript">
-        //Dom对象
-        var div = document.getElementById('mydiv');
-        console.log(div);
-        var div1 = document.getElementsByTagName('div');
-        console.log(div1);
+    //Dom对象  ==》 返回Dom对象
+    var div = document.getElementById('mydiv');
+    console.log(div);
+    var div1 = document.getElementsByTagName('div');
+    console.log(div1);
 
-        //Jquery对象
-        var JqueryDiv = $("#mydiv");
-        console.log(JqueryDiv);
+    //Js获取不存在的对象
+    var spanDom = document.getElementById('span');
+    console.log(spanDom);   //null
+
+    //Jquery对象  ==>返回结果集
+    var JqueryDiv = $("#mydiv");
+    console.log(JqueryDiv);
+    var Jqueryspan = $("#myspan");
+    console.log(Jqueryspan);//jQuery.fn.init{}
+
+
+    //=================Dom对象转换Jquery对象==========================
+    var DomToJquery = $(div);
+    console.log(DomToJquery);
+    //=================Jquery对象转换Dom对象==========================
+    var JqueryToDom = JqueryDiv[0];
+    console.log(JqueryToDom);
 </script>
 </html>
