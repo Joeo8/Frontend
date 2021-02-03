@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>常用样式</title>
+    <link rel="stylesheet" type="text/css" href="bootstrap-3.5.7/css/bootstrap.css">
+</head>
+<body>
+<!--
+    常用样式:
+        1.标题:
+            bootstrap对h1~h6的标题效果进行了覆盖
+            提供了对应的类名,可以为非标题元素设置样式
+            副标题 small标签 或 .small类名
+        2.段落
+            通过.lead来突出强调内容(其作用就是增大文本字号，加粗文本，而且对行高和margin也做相应的调整)
+            small 字体变小
+            b、strong 加粗
+            i、 em  斜体
+        3.强调
+            .text-muted: 提示,使用浅灰色(#999)
+            .text-primary:主要,使用蓝色(#428bca)
+            .text-success:成功,使用浅绿色(#3c763d)
+            .text-info:通知信息,使用浅蓝色(#31708f)
+            .text-waring:警告,使用黄色(#8a6d3b)
+            .text-danger:危险,使用褐色(#a94442)
+        4.对齐效果
+            Bootstrap通过定义四个类名来控制文本的对齐风格
+            text-left、 text-right、 text-center、 text-justify
+        5.列表
+            无序列表(<ul><li>....</li></ul>)
+            有序列表(<ol><li>...</li></ol>)
+            自定义列表(<dl><dt>...</dt><dd>...</dd></dl>)
+        6.代码
+            1)使用<code></code>来显示[单行]内联代码
+            2)使用<pre></pre>来显示多行代码块
+                样式:pre-scrollable添加滚动条(height、max-height)
+            3)使用<kbd></kbd>来显示用户输入代码,如快捷键
+        7.表格样式
+            BootStrap为表格提供了一种基础样式和四中附加样式以及1个支持响应式的表格
+            .table              基础表格
+            .table-striped      斑马线表格
+            .table-bordered     带边框的表格
+            .table-hover        鼠标悬停高亮表格
+            .table-condensed    紧凑型表格
+            针对 tr、th、td设置样式
+             .active        鼠标悬停的颜色应用在单元格或行上
+             .success       表示成功的操作
+             .info          表示信息变化的操作
+             .danger        表示一个危险的操作
+             .warning       表示一个警告的操作
+        8.表单样式
+            1.文本框
+                .form-control 表单元素的样式
+                表单空间的大小 .input-lg .input-sm
+            2.下拉框
+                .form-control 表单元素样式
+                multiple="multiple" 设置下拉框多选
+            3.文本域
+                .from-control 表单元素样式
+            4.单选框和复选框
+            5.按钮
+                1.设置按钮的颜色样式
+                    btn-info、btn-success、btn-warning.....
+                2.设置按钮的大小
+                    btn-lg、btn-sm、btn-xs
+                3.按钮禁用
+                    在标签中disabled(有用)/在属性中disabled(实质依然可以用)
+                4.多标签使用
+                    将其他标签设置btn属性转换成按钮
+
+-->
+    <!--标题-->
+    <h1>标题一 <small>副标题</small></h1>
+    <h2>标题二</h2>
+    <h3>标题3 <small>副标题</small></h3>
+    <h4>标题4</h4>
+    <div class="h1">Hello Joeo8 !</div>
+    <hr>
+    <!--段落-->
+    <p>通过.lead来突出强调内容<i><b>(其作用就是增大文本字号，加粗文本，而且对行高和margin也做相应的调整)</b></i></p>
+    <p class="lead">通过.lead来突出强调内容(其作用就是增大文本字号，<Strong>加粗文本</Strong>，而且对行高和margin也做相应的调整)</p>
+    <p ><small><i>通过.lead来突出强调内容(其作用就是增大文本字号，加粗文本，而且对行高和margin也做相应的调整)</i></small></p>
+    <hr>
+    <!--强调-->
+    <div class="text-muted">: 提示,使用浅灰色(#999)</div>
+    <div class="text-primary">:主要,使用蓝色(#428bca)</div>
+    <div class="text-success">:成功,使用浅绿色(#3c763d)</div>
+    <div class="text-info">:通知信息,使用浅蓝色(#31708f)</div>
+    <div class="text-waring">:警告,使用黄色(#8a6d3b)</div>
+    <div class="text-danger">:危险,使用褐色(#a94442)</div>
+    <hr>
+    <!--对齐-->
+    <p class="text-right">Bootstrap通过定义四个类名来控制文本的对齐风格</p>
+    <p class="text-left">Bootstrap通过定义四个类名来控制文本的对齐风格</p>
+    <p class="text-center">Bootstrap通过定义四个类名来控制文本的对齐风格</p>
+    <p class="text-justify">Bootstrap通过定义四个类名来控制文本的对齐
+        风格Bootstrap通过定义四个类名来控制文本的对齐风格Bootstrap通
+        过定义四个类名来控制文本的对齐风格Bootstrap通过定义四个类名来
+        控制文本的对齐风格Bootstrap通过定义四个类名来控制文本的对齐风格</p>
+
+    <hr>
+    <!--无序列表-->
+    <ul>
+        <li>无序列表一</li>
+        <li>无序列表二</li>
+    </ul>
+    <ol>
+        <li>有序列表一</li>
+        <li>有序列表一</li>
+    </ol>
+    <!--自定义列表-->
+    <dl>
+        <dt>Html</dt>
+        <dd>超文本标记语言</dd>
+        <dt>Css</dt>
+        <dd>层叠样式表</dd>
+    </dl>
+    <!--去点列表-->
+    <ul class="list-unstyled">
+        <li>无序列表一</li>
+        <li>无序列表二</li>
+    </ul>
+    <!--内联列表(水平方向)-->
+    <ul class="list-inline">
+        <li>首页</li>
+        <li>Java</li>
+        <li>Mysql</li>
+    </ul>
+    <!--自定义列表为内联列表-->
+    <dl class="dl-horizontal">
+        <dt>HtmlHtmlHtmlHtmlHtmlHtmlHtmlHtmlHtmlHtmlHtmlHtml</dt> <!--dt最大长度160px-->
+        <dd>超文本标记语言超文本标记语言超文本标记语言超文本标记语言超文本标记语言超文本标记语言</dd>
+        <dt>CssCssCssCssCssCssCssCssCssCssCssCss</dt>
+        <dd>层叠样式表层叠样式表层叠样式表层叠样式表层叠样式表层叠样式表</dd>
+    </dl>
+    <hr>
+    <!--代码-->
+    this is  a simple code <br>
+    <code>this is  a simple code</code>
+    <p>使用 <kbd>ctrl</kbd>+ <kbd>s</kbd> 来保存内容 </p>
+    <pre>
+        public class Hello{
+            public static void mian(String [] args){
+                System.out.println("Hello Joeo8 !");
+            }
+        }
+    </pre>
+    <pre>
+        &lt;h2&gt; Hello Joeo8 !&lt;h2/&gt;
+    </pre>
+    <pre class="pre-scrollable">  <!--添加滚动条-->
+        <ol>
+            <li>..........</li>
+            <li>..........</li>
+            <li>..........</li>
+            <li>..........</li>
+            <li>..........</li>
+            <li>..........</li>
+            <li>..........</li>
+            <li>..........</li>
+            <li>..........</li>
+            <li>..........</li>
+        </ol>
+    </pre>
+    <!--表格样式-->
+    <table class="table table-striped table-hover table-bordered ">
+        <tr class="active">
+            <th>JavaSE</th>
+            <th>JavaEE</th>
+            <th>MySql</th>
+        </tr>
+        <tr class="info">
+            <th>高并发</th>
+            <th>多线程</th>
+            <th>多响应</th>
+        </tr>
+        <tr class="danger">
+            <th>低耦合</th>
+            <th>多复用</th>
+            <th>多集成</th>
+        </tr>
+        <tr class="warning">
+            <th>JavaSE</th>
+            <th>JavaEE</th>
+            <th>MySql</th>
+        </tr>
+        <tr class="success">
+            <th>高并发</th>
+            <th>多线程</th>
+            <th>多响应</th>
+        </tr>
+    </table>
+    <hr>
+    <!--表单样式-->
+    <input type="text"><br>
+    <select>
+        <option>请选择城市</option>
+        <option>杭州</option>
+        <option>苏州</option>
+        <option>上海</option>
+        <option>深圳</option>
+    </select> <br>
+    <textarea> </textarea>
+    <hr>
+    <input type="text" class="form-control "><br>
+        <div class="row">
+            <div class="col-md-4">
+                <select class="form-control">
+                    <option>请选择城市</option>
+                    <option>杭州</option>
+                    <option>苏州</option>
+                    <option>上海</option>
+                    <option>深圳</option>
+                </select>
+            </div>
+        </div>
+    <br>
+    <div class="row">
+        <div class="col-md-6">
+            <textarea class="form-control"> </textarea>
+        </div>
+    </div>
+    <hr>
+    <!--单选框和多选框-->
+    <input type="radio" name="sex">男
+    <input type="radio" name="sex">女
+    <input type="checkbox" name="hobby">唱歌
+    <input type="checkbox" name="hobby">跳舞
+    <!--复选框-垂直显示-->
+    <div class="row">
+        <div class="col-md-3">
+            <div class="checkbox">
+                <label><input type="checkbox" name="hobby">唱歌</label>
+            </div>
+            <div class="checkbox">
+                <label><input type="checkbox" name="hobby">跳舞</label>
+            </div>
+        </div>
+    </div>
+    <!--复选框-水平显示-->
+    <div class="row">
+        <div class="col-md-3">
+            <label class="checkbox-inline">
+                <label><input type="checkbox" name="hobby">唱歌</label>
+            </label>
+            <label class="checkbox-inline">
+                <label><input type="checkbox" name="hobby">跳舞</label>
+            </label>
+        </div>
+    </div>
+    <!--单选框-垂直显示-->
+    <div class="row">
+        <div class="col-md-3">
+            <div class="radio">
+                <label><input type="radio" name="sex">男</label>
+            </div>
+            <div class="radio">
+                <label><input type="radio" name="sex">女</label>
+            </div>
+        </div>
+    </div>
+    <!--单选框-水平显示-->
+    <div class="row">
+        <div class="col-md-3">
+            <label class="radio-inline">
+                <label><input type="radio" name="sex">男</label>
+            </label>
+            <label class="radio-inline">
+                <label><input type="radio" name="sex">女</label>
+            </label>
+        </div>
+    </div>
+    <!--按钮-->
+    <button class="btn">按钮</button>
+    <button class="btn btn-danger">按钮</button>
+    <button class="btn btn-default">按钮</button>
+    <button class="btn btn-info">按钮</button>
+    <button class="btn btn-warning">按钮</button>
+    <button class="btn btn-success">按钮</button>
+    <button class="btn btn-link">按钮</button>
+    <!--将其他元素设置成按钮-->
+    <p class="btn btn-success">P标签</p>
+    <span class="btn btn-warning">span</span><br>
+    <!--设置按钮大小-->
+    <button class="btn btn-default">按钮</button>
+    <button class="btn btn-danger btn-lg">按钮</button>
+    <button class="btn btn-info btn-sm">按钮</button>
+    <button class="btn btn-warning btn-xs">按钮</button>
+    <br>
+    <!--按钮禁用-->
+    <button class="btn btn-warning" onclick="alert('hello')" disabled>按钮</button>
+    <button class="btn btn-success disabled" onclick="alert('hello')">按钮</button>
+    <br>
+
+</body>
+</html>
