@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>表单布局</title>
+    <link rel="stylesheet" type="text/css" href="bootstrap-3.5.7/css/bootstrap.css">
+</head>
+<body>
+<!--
+    接前页
+    9.表单布局
+        水平布局
+            设置样式 form-horizontal
+
+        内联表单
+            将表单的控件都在一行显示 form-inline
+-->
+<form action="#" class="form-horizontal" role="form">
+    <h2 align="center">用户信息表</h2>
+    <!--表单中的表单元素组-->
+    <div class="form-group">
+        <label for="uname" class="control-label col-md-2">姓名</label>
+        <div class="col-md-8">
+            <input type="text" id="uname" class="form-control" placeholder="请输入用户名">
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label for="upwd" class="control-label col-md-2">密码</label>
+        <div class="col-md-8">
+            <input type="password" id="upwd" class="form-control" placeholder="请输入密码" >
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label  class="control-label col-md-2">爱好</label>
+        <div class="col-md-8">
+            <label class="checkbox-inline">
+                <label><input type="checkbox" name="hobby">唱歌</label>
+            </label>
+            <label class="checkbox-inline">
+                <label><input type="checkbox" name="hobby">跳舞</label>
+            </label>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label  class="control-label col-md-2">城市</label>
+        <div class="col-md-8">
+            <select class="form-control">
+                <option>请选择城市</option>
+                <option>杭州</option>
+                <option>苏州</option>
+                <option>上海</option>
+                <option>深圳</option>
+            </select>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label for="remark" class="control-label col-md-2">简介</label>
+        <div class="col-md-8">
+            <textarea  id="remark" class="form-control"></textarea>
+        </div>
+    </div>
+
+    <div class="form-group ">
+        <div class="col-md-1  col-md-offset-5" >
+            <button class="btn btn-success">提交</button>
+        </div>
+        <div class="col-md-1 " >
+            <button class="btn btn-warning">重置</button>
+        </div>
+    </div>
+    <hr>
+
+    <!--============================内联表单================================-->
+</form>
+<form class="form-inline text-center">
+    <div class="form-group">
+        <label for="userName">姓名</label>
+            <input type="text" id="userName" class="form-control" placeholder="请输入用户名">
+    </div>
+
+    <div class="form-group">
+        <label for="userPwd" >密码</label>
+            <input type="password" id="userPwd" class="form-control" placeholder="请输入密码" >
+    </div>
+
+    <div class="form-group">
+        <button class="btn btn-success">提交</button>
+    </div>
+</form>
+</body>
+</html>
