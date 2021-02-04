@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>布局容器</title>
+    <link rel="stylesheet" href="layui/css/layui.css">
+</head>
+<body>
+<!--固定宽度-->
+<div class="layui-container">
+    <div class="layui-row" style="background-color: #d43f3a;height: 200px">
+        ……
+    </div>
+</div>
+<!--100%-->
+<div class="layui-fluid" style="background-color: #6f5499;height: 200px">
+    ……
+</div>
+<!--栅格网格系统-->
+<div class="layui-container">
+    常规布局（以中型屏幕桌面为例）：
+    <div class="layui-row">
+        <div class="layui-col-md9" style="background-color: #00FFFF">
+            你的内容 9/12
+        </div>
+        <div class="layui-col-md3" style="background-color: gold">
+            你的内容 3/12
+        </div>
+    </div>
+</div>
+<!--响应式-->
+移动设备、平板、桌面端的不同表现：
+<div class="layui-row">
+    <div class="layui-col-xs6 layui-col-sm6 layui-col-md4" style="background-color: #00FFFF">
+        移动：6/12 | 平板：6/12 | 桌面：4/12
+    </div>
+    <div class="layui-col-xs6 layui-col-sm6 layui-col-md4" style="background-color: #6f5499">
+        移动：6/12 | 平板：6/12 | 桌面：4/12
+    </div>
+    <div class="layui-col-xs4 layui-col-sm12 layui-col-md4" style="background-color: #d43f3a">
+        移动：4/12 | 平板：12/12 | 桌面：4/12
+    </div>
+    <div class="layui-col-xs4 layui-col-sm7 layui-col-md8" style="background-color: #2e6da4">
+        移动：4/12 | 平板：7/12 | 桌面：8/12
+    </div>
+    <div class="layui-col-xs4 layui-col-sm5 layui-col-md4" style="background-color: #00AA88">
+        移动：4/12 | 平板：5/12 | 桌面：4/12
+    </div>
+</div>
+
+<!--列边距-->
+<div class="layui-row layui-col-space10">
+    <div class="layui-col-md4" >
+        <div style="background-color: indianred">  1/3</div>
+    </div>
+    <div class="layui-col-md4" >
+        <div style="background-color: lightgoldenrodyellow">  1/3</div>
+    </div>
+    <div class="layui-col-md4" >
+        <div style="background-color: darkorange">  1/3</div>
+    </div>
+</div>
+<!--列偏移-->
+<div class="layui-row">
+    <div class="layui-col-md4" style="background-color: #00AA88">
+        4/12
+    </div>
+    <div class="layui-col-md4 layui-col-md-offset4" style="background-color: #6f5499">
+        偏移4列，从而在最右
+    </div>
+</div>
+<!--列嵌套-->
+<div class="layui-row layui-col-space5">
+    <div class="layui-col-md5">
+        <div class="layui-row grid-demo">
+            <div class="layui-col-md3">
+                内部列
+            </div>
+            <div class="layui-col-md9">
+                内部列
+            </div>
+            <div class="layui-col-md12">
+                内部列
+            </div>
+        </div>
+    </div>
+    <div class="layui-col-md7">
+        <div class="layui-row grid-demo grid-demo-bg1">
+            <div class="layui-col-md12">
+                内部列
+            </div>
+            <div class="layui-col-md9">
+                内部列
+            </div>
+            <div class="layui-col-md3">
+                内部列
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
